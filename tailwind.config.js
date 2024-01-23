@@ -1,18 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{js,vue,ts}",
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./app.vue",
-    "./error.vue",
+    './src/**/*.{js,vue,ts}',
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './app.vue',
+    './error.vue'
   ],
   theme: {
     extend: {
       fontFamily: {
-        'pjakarta': ["Plus Jakarta Sans", "sans-serif"],
+        pjakarta: ['Plus Jakarta Sans', 'sans-serif']
       },
       colors: {
         brand: {
@@ -28,9 +28,8 @@ export default {
       container: {
         center: true,
         padding: '1rem'
-      },
-    },
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
-
