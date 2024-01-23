@@ -12,7 +12,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pjakarta: ['Plus Jakarta Sans', 'sans-serif']
+        pjakarta: ['Plus Jakarta Sans', 'sans-serif'],
       },
       colors: {
         brand: {
