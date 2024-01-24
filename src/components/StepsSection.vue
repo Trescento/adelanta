@@ -1,5 +1,5 @@
 <template>
-  <section class="container max-w-7xl my-24">
+  <section class="container max-w-7xl my-48">
     <!-- Head -->
     <div class="flex justify-between items-center space-x-4">
       <h2 class="font-bold text-4xl"><span class="text-brand">¿Cómo funciona</span> Adelanta <br />por Ziff?</h2>
