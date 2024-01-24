@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-brand-gray90">
+  <div class="">
     <div class="container flex justify-between py-2">
       <button class="xl:hidden">
         <svg
