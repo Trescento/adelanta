@@ -1,5 +1,5 @@
 <template>
-  <section class="my-48 container max-w-[1036px] space-y-24">
+  <section class="my-48 container max-w-[1066px] space-y-24">
     <p class="text-[2.5rem] font-bold leading-normal">
       <span class="text-brand">No dejes</span> que las preocupaciones financieras afectan tu negocio. Con nuestras opciones de financiamiento, puedes concentrarte en lo importante:
       <span class="relative">
