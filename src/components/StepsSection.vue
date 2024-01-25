@@ -1,5 +1,6 @@
 <template>
-  <section class="container max-w-7xl my-48">
+  <section class="my-48 bg-brand-secondary-purple text-white">
+    <div class="container max-w-7xl">
     <!-- Head -->
     <div class="flex justify-between items-center space-x-4">
       <h2 class="font-bold text-4xl"><span class="text-brand">¿Cómo funciona</span> Adelanta <br />por Ziff?</h2>
@@ -36,6 +37,7 @@
         <p class="text-lg text-balance mt-auto">Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.</p>
       </div>
     </div>
+  </div>    
   </section>
 </template>
 
