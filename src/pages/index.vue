@@ -2,6 +2,6 @@
   <HeaderApp />
   <HeroSection />
   <StepsSection />
-  <SolicitaSection />
+  <ValueSection />
   <VideoSection />
 </template>
