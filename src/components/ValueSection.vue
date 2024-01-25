@@ -1,17 +1,17 @@
 <template>
-  <section class="container max-w-7xl my-24">
-    <div class="flex items-center">
+  <section class="container max-w-7xl lg:my-24 -mt-24 lg:px-4 px-0">
+    <div class="flex flex-col lg:flex-row items-center">
       <img
-        class="rounded-lg object-cover -mr-[151px] w-5/12 shrink grow-0"
-        src="/images/value.png"
+        class="lg:rounded-3xl object-cover lg:-mr-[151px] lg:w-5/12 -mb-[151px] lg:mb-0 w-full min-h-80"
+        src="/images/value.jpeg"
         alt="Grow Together"
       />
-      <div class="bg-brand rounded-3xl p-8 text-center flex flex-col items-center">
-        <p class="text-brand-purple-light text-[2rem] font-bold">
+      <div class="bg-brand rounded-3xl p-8 text-center flex flex-col items-center mx-6 lg:mx-0">
+        <p class="text-brand-purple-light text-2xl lg:text-[2rem] font-bold leading-snug">
           No dejes que las preocupaciones financieras afectan tu negocio.<br/>
           Con nuestras opciones de financiamiento, puedes concentrarte en lo importante:
         </p>
-        <p class="text-[2.5rem] text-white font-bold mb-6">Hacer crecer tu empresa</p>
+        <p class="text-[2rem] lg:text-[2.5rem] text-white font-bold mb-6">Hacer crecer tu empresa</p>
         <BaseButton type="white">
           <span>Solicita un adelanto</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
