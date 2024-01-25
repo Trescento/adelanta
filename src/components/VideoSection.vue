@@ -1,6 +1,6 @@
 <template>
   <section class="my-48 container">
-    <div class="relative aspect-video rounded-3xl overflow-hidden bg-gray-300">
+    <div class="relative aspect-video rounded-3xl overflow-hidden bg-brand-purple-light">
       <iframe v-if="showVideo" src="https://player.vimeo.com/video/601518684?h=5e7c0b6e8b" class="absolute top-0 left-0 h-full w-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen />
       <div v-else class="absolute top-0 left-0 h-full w-full">
         <button @click="showVideo = true" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
