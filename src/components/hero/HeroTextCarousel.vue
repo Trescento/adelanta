@@ -16,9 +16,9 @@
       }
     }"
   >
-    <span class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words1">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words1">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words1">{{ word }}</span>
+    <template v-for="n in 3">
+      <span  v-for="word in words1" class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+    </template>
   </div>
   <div
     id="hero-text-carousel2"
@@ -36,9 +36,9 @@
       }
     }"
   >
-    <span class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words2">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words2">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words2">{{ word }}</span>
+    <template v-for="n in 3">
+      <span  v-for="word in words2" class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+    </template>
   </div>
 
   <!-- DESKTOP -->
@@ -57,9 +57,9 @@
       }
     }"
   >
-    <span class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words1">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words1">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words1">{{ word }}</span>
+    <template v-for="n in 3">
+      <span v-for="word in words1" class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+  </template>
   </div>
   <div
     class="hidden lg:flex flex-nowrap"
@@ -76,9 +76,9 @@
       }
     }"
   >
-    <span class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words2">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words2">{{ word }}</span>
-    <span class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all" v-for="word in words2">{{ word }}</span>
+    <template v-for="n in 3">
+      <span v-for="word in words2" class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+    </template>
   </div>
 </template>
 

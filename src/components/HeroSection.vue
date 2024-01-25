@@ -1,10 +1,10 @@
 <template>
   <section class="container  flex flex-col lg:flex-row justify-between items-center mb-24 mt-4 lg:mt-24">
-    <div class="max-w-[580px] lg:order-2 lg:overflow-hidden relative bg-white mb-6 lg:mb-0">
+    <div class="max-w-[580px] lg:order-2 lg:overflow-hidden relative bg-white mb-6 lg:mb-0 z-10">
       <HeroImagesCarousel />
     </div>
-    <div class="lg:mr-16 w-full max-w-[700px] flex flex-col lg:order-1">
-      <h1 class="text-4xl md:text-[4rem] font-bold leading-[normal] text-balance mt-4 mb-6">
+    <div class="lg:mr-16 max-w-[700px] w-full flex flex-col lg:order-1">
+      <h1 class="text-4xl xl:text-[4rem] font-bold leading-[normal] text-balance mt-4 mb-6">
         Accede capital para crecer tu negocio sin endeudarte
       </h1>
       <div>
