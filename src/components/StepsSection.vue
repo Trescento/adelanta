@@ -1,53 +1,94 @@
 <template>
-  <section class="my-48 bg-brand-secondary-purple text-white">
-    <div class="container max-w-7xl">
-    <!-- Head -->
-    <div class="flex justify-between items-center space-x-4">
-      <h2 class="font-bold text-4xl"><span class="text-brand">¿Cómo funciona</span> Adelanta <br />por Ziff?</h2>
-      <BaseButton type="secondary">
-        <div class="flex items-center space-x-4">
-          <span>Obtén una cotización de inmediato</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M5 12H19" stroke="#6D3EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12 5L19 12L12 19" stroke="#6D3EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+  <section class="my-24 bg-brand-purple-secondary text-white">
+    <div class="container max-w-7xl flex flex-col items-start md:items-center py-24 gap-12">
+      
+      <h2 class="font-bold text-4xl">{{ steps.title }}</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 mt-12 gap-6">
+        <div v-for="step in steps.steps" class="flex flex-col border border-brand-purple-light rounded-3xl p-8">
+          <div v-html="step.icon" class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center" />
+          <h3 class="text-2xl mt-4 mb-6 font-bold text-brand-purple-light">{{ step.title }}</h3>
+          <p class="text-lg text-balance">{{ step.description }}</p>
         </div>
+      </div>
+
+      <BaseButton type="white">
+        <span class="block md:hidden">Obtén una cotización</span>
+        <span class="hidden md:block">Obtén una cotización de inmediato</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+          <path d="M5.5 12H19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12.5 5L19.5 12L12.5 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </BaseButton>
-    </div>
-    <div class="grid grid-cols-3 mt-12 gap-4">
-      <div class="flex flex-col">
-        <span class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center">
-          1
-        </span>
-        <h3 class="text-2xl mt-4 mb-6 font-bold text-balance">Firma tu contrato con tu cliente o inquilino</h3>
-        <p class="text-lg text-balance mt-auto">Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.</p>
-      </div>
-      <div class="flex flex-col">
-        <span class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center">
-          2
-        </span>
-        <h3 class="text-2xl mt-4 mb-6 font-bold text-balance">Crea tu cuenta en Adelanta por Ziff y completa tu solicitud</h3>
-        <p class="text-lg text-balance mt-auto">Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.</p>
-      </div>
-      <div class="flex flex-col">
-        <span class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center">
-          3
-        </span>
-        <h3 class="text-2xl mt-4 mb-6 font-bold text-balance">Recibes tu Adelanto en tu cuenta bancaria</h3>
-        <p class="text-lg text-balance mt-auto">Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.</p>
-      </div>
-    </div>
-  </div>    
+    </div>    
   </section>
 </template>
 
-<script>
-import BaseButton from '~/components/common/BaseButton.vue';
+<script setup lang="ts">
+const steps = {
+  title: '¿Cómo funciona Adelanta por Ziff?',
+  steps: [
+    {
+      title: 'Firma tu contrato con tu cliente o inquilino',
+      description: 'Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.',
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+              <g clip-path="url(#clip0_63_2219)">
+                <g mask="url(#mask0_63_2219)">
+                  <path d="M24.9998 33.75C24.7082 33.75 24.4635 33.6458 24.2655 33.4373C24.0675 33.2293 23.9685 32.9897 23.9685 32.7188C23.9685 32.4062 24.0675 32.151 24.2655 31.953C24.4635 31.755 24.7082 31.656 24.9998 31.656C26.1458 31.656 27.125 31.427 27.9375 30.969C28.75 30.5105 29.1562 29.9792 29.1562 29.3752C29.1562 28.9583 28.9063 28.557 28.4062 28.1715C27.9062 27.7865 27.2293 27.469 26.3752 27.219L27.969 25.6252C29.073 26.0207 29.8958 26.5415 30.4373 27.1875C30.9793 27.8335 31.2502 28.5628 31.2502 29.3752C31.2502 30.7708 30.6095 31.8487 29.328 32.6092C28.047 33.3698 26.6042 33.75 24.9998 33.75ZM14.406 24.4373C13.323 24.1247 12.5263 23.682 12.0157 23.109C11.5052 22.5365 11.25 21.9167 11.25 21.2498C11.25 20.4793 11.5365 19.797 12.1095 19.203C12.6825 18.6095 13.9065 17.9585 15.7815 17.25C17.1355 16.7085 18.0052 16.297 18.3907 16.0155C18.7762 15.7345 18.969 15.4065 18.969 15.0315C18.969 14.573 18.745 14.177 18.297 13.8435C17.849 13.5105 17.1667 13.344 16.2502 13.344C15.7082 13.344 15.2445 13.4117 14.859 13.5472C14.474 13.6822 14.1253 13.906 13.8127 14.2185C13.6252 14.406 13.3907 14.5155 13.1093 14.547C12.8282 14.578 12.573 14.4998 12.3435 14.3123C12.0935 14.1248 11.9582 13.8958 11.9377 13.6252C11.9167 13.3543 12 13.1042 12.1875 12.8752C12.5625 12.4168 13.1095 12.0313 13.8285 11.7188C14.547 11.4062 15.3542 11.25 16.2502 11.25C17.6878 11.25 18.844 11.5885 19.719 12.2655C20.594 12.9425 21.0315 13.8645 21.0315 15.0315C21.0315 15.8645 20.7345 16.5885 20.1405 17.2035C19.547 17.818 18.3647 18.469 16.5938 19.1565C15.2603 19.677 14.3852 20.078 13.9688 20.3595C13.5523 20.6405 13.344 20.9372 13.344 21.2498C13.344 21.5417 13.568 21.818 14.016 22.0785C14.4635 22.3385 15.1352 22.5833 16.0312 22.8127L14.406 24.4373ZM30.6877 20.0002L26.25 15.5625L27.6248 14.1877C28.0417 13.7707 28.521 13.5623 29.0625 13.5623C29.604 13.5623 30.0728 13.7707 30.4688 14.1877L32.0625 15.7815C32.479 16.177 32.6873 16.6457 32.6873 17.1877C32.6873 17.7292 32.479 18.2083 32.0625 18.6248L30.6877 20.0002ZM14.5935 31.656H16.0312L26.2185 21.4688L24.7815 20.031L14.5935 30.219V31.656ZM12.5002 33.75V29.3123L24.7815 17.031L29.2185 21.4688L16.9373 33.75H12.5002Z" fill="white"/>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_63_2219">
+                  <rect width="45" height="45" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>`
+    },
+    {
+      title: 'Crea tu cuenta en Adelanta por Ziff y completa tu solicitud',
+      description: 'Completa tu preaprobación en minutos. Nos comunicaremos contigo para que puedas completar tu solicitud.',
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 47 47" fill="none">
+              <g clip-path="url(#clip0_63_2229)">
+                <g mask="url(#mask0_63_2229)">
+                  <path d="M14.5834 33.3334V30.4167C14.5834 29.8438 14.731 29.3056 15.0261 28.8022C15.3212 28.2987 15.7292 27.9167 16.25 27.6563C17.1355 27.205 18.1337 26.823 19.2448 26.5105C20.356 26.198 21.5799 26.0417 22.9167 26.0417C23.4375 26.0417 23.9456 26.0678 24.4407 26.1199C24.9351 26.172 25.4167 26.2501 25.8855 26.3542L24.0625 28.1772C23.8716 28.1425 23.6847 28.1251 23.5021 28.1251H22.9167C21.6841 28.1251 20.5771 28.2727 19.5959 28.5678C18.6154 28.8629 17.8125 29.1841 17.1875 29.5313C17.0313 29.6181 16.9056 29.7397 16.8105 29.8959C16.7146 30.0522 16.6667 30.2258 16.6667 30.4167V31.2501H23.1771L25.2605 33.3334H14.5834ZM28.698 33.7501L25.1042 30.1563L26.5625 28.698L28.698 30.8334L33.9584 25.573L35.4167 27.0313L28.698 33.7501ZM22.9167 25.0001C21.7709 25.0001 20.7899 24.5921 19.974 23.7761C19.1581 22.9602 18.75 21.9792 18.75 20.8334C18.75 19.6876 19.1581 18.7066 19.974 17.8907C20.7899 17.0748 21.7709 16.6667 22.9167 16.6667C24.0625 16.6667 25.0435 17.0748 25.8594 17.8907C26.6754 18.7066 27.0834 19.6876 27.0834 20.8334C27.0834 21.9792 26.6754 22.9602 25.8594 23.7761C25.0435 24.5921 24.0625 25.0001 22.9167 25.0001ZM22.9167 22.9167C23.4896 22.9167 23.9802 22.7126 24.3886 22.3042C24.7962 21.8966 25 21.4063 25 20.8334C25 20.2605 24.7962 19.7702 24.3886 19.3626C23.9802 18.9542 23.4896 18.7501 22.9167 18.7501C22.3438 18.7501 21.8535 18.9542 21.4459 19.3626C21.0375 19.7702 20.8334 20.2605 20.8334 20.8334C20.8334 21.4063 21.0375 21.8966 21.4459 22.3042C21.8535 22.7126 22.3438 22.9167 22.9167 22.9167Z" fill="#F9F7FF"/>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_63_2229">
+                  <rect width="50" height="50" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>`
+    },
+    {
+      title: 'Recibes tu Adelanto en tu cuenta bancaria',
+      description: 'Firma tu contrato de Adelanto con Ziff y te haremos el depósito de los meses que solicitaste, descontando nuestra Comisión Única.',
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+              <g clip-path="url(#clip0_63_2240)">
+                <path d="M45 22.5C45 10.0736 34.9264 0 22.5 0C10.0736 0 0 10.0736 0 22.5C0 34.9264 10.0736 45 22.5 45C34.9264 45 45 34.9264 45 22.5Z"/>
+                <mask id="mask0_63_2240" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="7" width="31" height="31">
+                  <path d="M37.5 7.5H7.5V37.5H37.5V7.5Z" fill="#D9D9D9"/>
+                </mask>
+                <g mask="url(#mask0_63_2240)">
+                  <path d="M27.75 24.4688C28.271 24.4688 28.7293 24.2708 29.1248 23.8748C29.5208 23.4793 29.7188 23.021 29.7188 22.5C29.7188 21.9585 29.5208 21.495 29.1248 21.1095C28.7293 20.724 28.271 20.5312 27.75 20.5312C27.229 20.5312 26.7707 20.724 26.3752 21.1095C25.9792 21.495 25.7812 21.9585 25.7812 22.5C25.7812 23.021 25.9792 23.4793 26.3752 23.8748C26.7707 24.2708 27.229 24.4688 27.75 24.4688ZM13.344 33.75C12.7815 33.75 12.2918 33.5417 11.8748 33.1252C11.4583 32.7083 11.25 32.2185 11.25 31.656V13.344C11.25 12.7815 11.4583 12.2918 11.8748 11.8748C12.2918 11.4583 12.7815 11.25 13.344 11.25H31.656C32.2185 11.25 32.7083 11.4583 33.1252 11.8748C33.5417 12.2918 33.75 12.7815 33.75 13.344V17.1562H31.656V13.344H13.344V31.656H31.656V27.8438H33.75V31.656C33.75 32.2185 33.5417 32.7083 33.1252 33.1252C32.7083 33.5417 32.2185 33.75 31.656 33.75H13.344ZM24.1252 28.4685C23.4167 28.4685 22.8437 28.2497 22.4062 27.8123C21.9688 27.3748 21.75 26.8123 21.75 26.1248V18.906C21.75 18.198 21.9688 17.6252 22.4062 17.1877C22.8437 16.7503 23.4167 16.5315 24.1252 16.5315H32.6565C33.3645 16.5315 33.9373 16.7503 34.3748 17.1877C34.8122 17.6252 35.031 18.198 35.031 18.906V26.1248C35.031 26.8123 34.8122 27.3748 34.3748 27.8123C33.9373 28.2497 33.3645 28.4685 32.6565 28.4685H24.1252ZM32.9685 26.406V18.6248H23.844V26.406H32.9685Z" fill="white"/>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_63_2240">
+                  <rect width="45" height="45" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>`
+    }
+  ]
+}
+</script>
 
+<script lang="ts">
+import BaseButton from '~/components/common/BaseButton.vue';
 export default {
   components: {
     BaseButton
   }
 }
-
 </script>

@@ -18,6 +18,10 @@ export default {
         brand: {
           DEFAULT: '#6D3EFF',
           primary: '#6D3EFF',
+          purple: {
+            secondary: '#271948',
+            light: '#D3c5ff'
+          },
           secondary: {
             purple: '#271948'
           },
