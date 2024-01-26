@@ -20,6 +20,7 @@ export default {
           primary: '#6D3EFF',
           purple: {
             secondary: '#271948',
+            'dark-light': 'rgba(109, 62, 255, 0.30)',
             light: '#D3c5ff'
           },
           secondary: {
