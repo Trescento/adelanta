@@ -4,4 +4,5 @@
   <StepsSection />
   <ValueSection />
   <VideoSection />
+  <TestimonialsSection />
 </template>
