@@ -19,14 +19,11 @@
   </section>
 </template>
 
-
 <script>
 import BaseButton from '~/components/common/BaseButton.vue';
-
 export default {
   components: {
     BaseButton
   }
 }
-
 </script>
