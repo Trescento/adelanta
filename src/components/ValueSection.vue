@@ -1,5 +1,18 @@
 <template>
-  <section class="container max-w-7xl lg:my-24 -mt-24 lg:px-4 px-0">
+  <section
+    class="container max-w-7xl lg:my-24 -mt-24 lg:px-4 px-0"
+    v-motion
+    :initial ="{ opacity: 0, y: 50 }"
+    :visibleOnce="{
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: 500,
+        duration: 500,
+        ease: 'easeInOut'
+      }
+    }"
+  >
     <div class="flex flex-col lg:flex-row items-center">
       <img
         class="lg:rounded-3xl object-cover lg:-mr-[151px] lg:w-5/12 -mb-[151px] lg:mb-0 w-full min-h-80"
