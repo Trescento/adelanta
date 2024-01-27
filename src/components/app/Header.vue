@@ -9,19 +9,29 @@
       </NuxtLink>
       <div class="flex items-center gap-6">
         <nav class="hidden xl:flex gap-[33px]">
-          <NuxtLink href="/nosotros">Nosotros</NuxtLink>
-          <NuxtLink href="/como-funciona">¿Cómo funciona?</NuxtLink>
-          <NuxtLink href="/socios">Socios Ziff</NuxtLink>
-          <NuxtLink href="/blog">Blog</NuxtLink>
-          <NuxtLink href="/faq">Preguntas Frecuentes</NuxtLink>
+          <NuxtLink href="/nosotros">
+            Nosotros
+          </NuxtLink>
+          <NuxtLink href="/como-funciona">
+            ¿Cómo funciona?
+          </NuxtLink>
+          <NuxtLink href="/socios">
+            Socios Ziff
+          </NuxtLink>
+          <NuxtLink href="/blog">
+            Blog
+          </NuxtLink>
+          <NuxtLink href="/faq">
+            Preguntas Frecuentes
+          </NuxtLink>
         </nav>
         <!-- Buttons -->
         <div class="flex">
           <NuxtLink href="#" class="hidden px-6 py-2 mr-3 border rounded-lg xl:block border-brand-black">
-              Iniciar Sesión
+            Iniciar Sesión
           </NuxtLink>
           <NuxtLink href="#" class="px-6 py-2 text-white border rounded-lg border-brand bg-brand">
-              Registrarme
+            Registrarme
           </NuxtLink>
         </div>
       </div>

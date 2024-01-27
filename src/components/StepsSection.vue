@@ -1,14 +1,16 @@
 <template>
   <section class="my-24 bg-brand-purple-secondary text-white">
     <div class="container max-w-7xl flex flex-col items-start md:items-center py-24 gap-12">
-      <h2 class="font-bold text-4xl">{{ steps.title }}</h2>
-      
+      <h2 class="font-bold text-4xl">
+        {{ steps.title }}
+      </h2>
+
       <div class="grid grid-cols-1 md:grid-cols-3 mt-12 gap-6">
         <div
           v-for="(step, index) in steps.steps"
-          class="flex flex-col border border-brand-purple-light rounded-3xl p-8"
           v-motion
-          :initial ="{ opacity: 0, y: 50}"
+          class="flex flex-col border border-brand-purple-light rounded-3xl p-8"
+          :initial="{ opacity: 0, y: 50}"
           :visibleOnce="{
             opacity: 1,
             y: 0,
@@ -19,9 +21,13 @@
             }
           }"
         >
-          <div v-html="step.icon" class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center" />
-          <h3 class="text-2xl mt-4 mb-6 font-bold text-brand-purple-light">{{ step.title }}</h3>
-          <p class="text-lg text-balance">{{ step.description }}</p>
+          <div class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center" v-html="step.icon" />
+          <h3 class="text-2xl mt-4 mb-6 font-bold text-brand-purple-light">
+            {{ step.title }}
+          </h3>
+          <p class="text-lg text-balance">
+            {{ step.description }}
+          </p>
         </div>
       </div>
 
@@ -29,15 +35,19 @@
         <span class="block md:hidden">Obtén una cotización</span>
         <span class="hidden md:block">Obtén una cotización de inmediato</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-          <path d="M5.5 12H19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M12.5 5L19.5 12L12.5 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5.5 12H19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M12.5 5L19.5 12L12.5 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </BaseButton>
-    </div>    
+    </div>
   </section>
 </template>
 
 <script setup lang="ts">
+</script>
+
+<script lang="ts">
+import BaseButton from '~/components/common/BaseButton.vue'
 const steps = {
   title: '¿Cómo funciona Adelanta por Ziff?',
   steps: [
@@ -95,10 +105,6 @@ const steps = {
     }
   ]
 }
-</script>
-
-<script lang="ts">
-import BaseButton from '~/components/common/BaseButton.vue';
 export default {
   components: {
     BaseButton

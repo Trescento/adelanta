@@ -1,3 +1,3 @@
 <template>
-  Socios Ziff
+  <p>Socios Ziff</p>
 </template>
