@@ -1,11 +1,26 @@
 <template>
-  <section class="container mb-24 mt-48">
-    <div class="grid grid-cols-2 rounded-3xl overflow-hidden">
-      <div class="flex flex-col justify-center items-center bg-brand-purple-secondary text-white p-12">
-        <h2 class="lg:text-6xl lg:leading-[81px] font-bold mb-6">Sé 
-        <span class="relative">el primero
-          <img src="~/assets/line-3.svg" class="hidden lg:block absolute -bottom-5 w-full h-auto left-0 object-fill"/> 
-        </span> <br />en enterarte</h2>
+  <section class="container my-24">
+    <div class="grid grid-cols-1 md:grid-cols-2 rounded-3xl overflow-hidden">
+      <div class="flex flex-col justify-center bg-brand-purple-secondary text-white p-12">
+        <div class="relative mb-6">
+          <h2 class="text-[2.5rem] leading-[3.125rem] lg:text-6xl lg:leading-[5.06rem] font-bold">Sé 
+            <span class="relative">el primero
+              <img src="~/assets/line-3.svg" class="absolute -bottom-3 lg:-bottom-5 w-full h-auto left-0 object-fill"/> 
+            </span> <br />en enterarte
+          </h2>
+          <!-- Mobile -->
+          <div class="flex md:hidden absolute left-64 bottom-0 gap-1">
+            <img src="~/assets/star.svg" class="hidden w-6 h-6"/>
+            <img src="~/assets/star.svg" class="hidden h-10 w-10"/>
+            <img src="~/assets/star.svg" class="h-6 w-6"/>
+            <img src="~/assets/star.svg" class="h-2 w-2"/>
+          </div>
+          <!-- Desktop -->
+          <div class="lg:flex hidden absolute right-0 top-0 gap-1">
+            <img src="~/assets/star.svg" class="h-6 w-6"/>
+            <img src="~/assets/star.svg" class="h-10 w-10"/>
+          </div>
+        </div>
         <p class="text-lg mb-8">Suscríbete a nuestro boletín para recibir noticias, ofertas y contenido exclusivo.</p>
         <form class="flex flex-col gap-4 w-full">
           <div class="flex flex-col gap-2">
@@ -35,7 +50,7 @@
           </BaseButton>
         </form>
       </div>
-      <img src="/images/value.jpeg" width="100%" class="object-cover h-full" />
+      <img src="/images/value.jpeg" width="100%" class="hidden md:block object-cover h-full" />
     </div>
   </section>
 </template>
