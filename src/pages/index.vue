@@ -1,3 +1,3 @@
 <template>
-  <ViewHomeTemplate />
+  <ViewHome />
 </template>
