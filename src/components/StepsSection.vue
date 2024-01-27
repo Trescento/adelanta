@@ -1,11 +1,24 @@
 <template>
   <section class="my-24 bg-brand-purple-secondary text-white">
     <div class="container max-w-7xl flex flex-col items-start md:items-center py-24 gap-12">
-      
       <h2 class="font-bold text-4xl">{{ steps.title }}</h2>
       
       <div class="grid grid-cols-1 md:grid-cols-3 mt-12 gap-6">
-        <div v-for="step in steps.steps" class="flex flex-col border border-brand-purple-light rounded-3xl p-8">
+        <div
+          v-for="(step, index) in steps.steps"
+          class="flex flex-col border border-brand-purple-light rounded-3xl p-8"
+          v-motion
+          :initial ="{ opacity: 0, y: 50}"
+          :visibleOnce="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              delay: (index + 1) * 250,
+              duration: 300,
+              ease: 'easeInOut'
+            }
+          }"
+        >
           <div v-html="step.icon" class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center" />
           <h3 class="text-2xl mt-4 mb-6 font-bold text-brand-purple-light">{{ step.title }}</h3>
           <p class="text-lg text-balance">{{ step.description }}</p>
