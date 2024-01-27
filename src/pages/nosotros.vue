@@ -1,3 +1,4 @@
 <template>
-  <p>Nosotros</p>
+  <NosotrosQuienesSomosSection />
+  <NosotrosMisionSection />
 </template>
