@@ -1,8 +1,3 @@
 <template>
-  <HeroSection />
-  <StepsSection />
-  <ValueSection />
-  <VideoSection />
-  <TestimonialsSection />
-  <NewsletterSection />
+  <ViewHomeTemplate />
 </template>

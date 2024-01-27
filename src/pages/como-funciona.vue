@@ -1,3 +1,3 @@
 <template>
-  Como Funciona?
+  <p>Como Funciona?</p>
 </template>

@@ -8,6 +8,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 mt-12 gap-6">
         <div
           v-for="(step, index) in steps.steps"
+          :key="step.title"
           v-motion
           class="flex flex-col border border-brand-purple-light rounded-3xl p-8"
           :initial="{ opacity: 0, y: 50}"
@@ -21,6 +22,7 @@
             }
           }"
         >
+          <!-- eslint-disable-next-line -->
           <div class="bg-brand text-lg font-bold text-white rounded-full h-10 w-10 flex items-center justify-center" v-html="step.icon" />
           <h3 class="text-2xl mt-4 mb-6 font-bold text-brand-purple-light">
             {{ step.title }}
@@ -108,6 +110,11 @@ const steps = {
 export default {
   components: {
     BaseButton
+  },
+  data () {
+    return {
+      steps
+    }
   }
 }
 </script>

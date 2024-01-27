@@ -17,7 +17,7 @@
     class="flex lg:hidden flex-nowrap"
   >
     <template v-for="n in 3">
-      <span v-for="word in words1" class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+      <span v-for="word in words1" :key="`M-${word}-${n}`" class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
     </template>
   </div>
   <div
@@ -37,7 +37,7 @@
     class="flex lg:hidden flex-nowrap"
   >
     <template v-for="n in 3">
-      <span v-for="word in words2" class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+      <span v-for="word in words2" :key="`M2-${word}-${n}`" class="text-nowrap whitespace-nowrap text-2xl font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
     </template>
   </div>
 
@@ -58,7 +58,7 @@
     class="hidden lg:flex flex-nowrap"
   >
     <template v-for="n in 3">
-      <span v-for="word in words1" class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+      <span v-for="word in words1" :key="`DT-${word}-${n}`" class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
     </template>
   </div>
   <div
@@ -77,7 +77,7 @@
     class="hidden lg:flex flex-nowrap"
   >
     <template v-for="n in 3">
-      <span v-for="word in words2" class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
+      <span v-for="word in words2" :key="`DT2-${word}-${n}`" class="text-nowrap whitespace-nowrap text-[40px] font-bold opacity-40 mr-6 hover:opacity-100 transition-all">{{ word }}</span>
     </template>
   </div>
 </template>

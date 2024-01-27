@@ -1,3 +1,3 @@
 <template>
-  Nosotros
+  <p>Nosotros</p>
 </template>
