@@ -49,7 +49,6 @@
 </template>
 
 <script setup lang="ts">
-const scroll = useState('posts-scroll', () => 0)
 const carouselContainer = ref<HTMLElement | null>(null)
 
 const posts = ref([
@@ -80,15 +79,13 @@ const posts = ref([
 ])
 
 const scrollLeft = () => {
-  if (carouselContainer.value) {
-    console.log(carouselContainer.value.scrollLeft)
+  if (carouselContainer.value != null) {
     carouselContainer.value.scrollLeft -= 350 // Ajusta este valor según sea necesario
   }
 }
 
 const scrollRight = () => {
-  if (carouselContainer.value) {
-    console.log(carouselContainer.value.scrollLeft)
+  if (carouselContainer.value != null) {
     carouselContainer.value.scrollLeft += 350 // Ajusta este valor según sea necesario
   }
 }
