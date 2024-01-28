@@ -2,6 +2,7 @@
   <NosotrosQuienesSomosSection />
   <NosotrosMisionSection />
   <NosotrosVisionSection />
+  <PostsSection />
 </template>
 
 <script setup lang="ts">
