@@ -4,7 +4,7 @@
       <div class="md:order-2">
         <img src="/images/quienessomos.png" alt="" class="rounded-3xl w-full h-full object-cover">
       </div>
-      <div class="flex flex-col py-12 gap-6 md:order-1">
+      <div class="flex flex-col pt-0 lg:pt-12 py-12 gap-6 md:order-1">
         <h1 class="text-5xl font-bold">
           ¿Quienes somos?
         </h1>
