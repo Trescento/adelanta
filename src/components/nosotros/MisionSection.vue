@@ -1,6 +1,6 @@
 <template>
   <section class="container grid grid-cols-1 lg:grid-cols-3 gap-16 my-24 max-w-7xl">
-    <img src="/images/value.jpeg" alt="Misión" class="rounded-3xl min-h-[360px] h-full object-cover">
+    <img src="/images/value.jpeg" alt="Misión" class="rounded-3xl min-h-[360px] h-full w-full object-cover">
     <div class="flex flex-col gap-6 justify-center max-w-80 lg:-order-1">
       <div class="flex items-center justify-center bg-brand rounded-full h-11 w-11 self-start">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
