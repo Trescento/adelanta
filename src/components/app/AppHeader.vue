@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container flex justify-between py-2">
+    <div class="container flex justify-between py-4">
       <button class="xl:hidden">
         <img src="~/assets/menu.svg" class="h-6 w-6">
       </button>
