@@ -7,14 +7,28 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
+      autoprefixer: {}
+    }
   },
   googleFonts: {
     families: {
-      "Plus Jakarta Sans": {
-        wght: [400, 600, 700],
-      },
-    },
+      'Plus Jakarta Sans': {
+        wght: [400, 600, 700]
+      }
+    }
   },
+  app: {
+    head: {
+      script: [
+        // HubSpot
+        {
+          type: 'text/javascript',
+          id: 'hs-script-loader',
+          async: true,
+          defer: true,
+          src: '//js.hs-scripts.com/44399487.js'
+        }
+      ]
+    }
+  }
 })
