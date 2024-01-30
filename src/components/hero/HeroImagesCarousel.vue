@@ -6,7 +6,7 @@
       initial: { x: 0 },
       enter: { x: -(392 + 16) * images.length,
                transition: {
-                 duration: 20000,
+                 duration: 30000,
                  ease: 'linear',
                  repeat: Infinity,
                  repeatType: 'loop',
@@ -27,7 +27,7 @@
       initial: { x: 0 },
       enter: { x: -(234 + 16) * images.length,
                transition: {
-                 duration: 20000,
+                 duration: 30000,
                  ease: 'linear',
                  repeat: Infinity,
                  repeatType: 'loop',
