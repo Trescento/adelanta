@@ -41,8 +41,8 @@
     </template>
     <!-- <img v-for="n in 3" src="https://via.placeholder.com/391x588" alt="Placeholder" class="rounded-3xl" /> -->
   </div>
-  <div class="hidden lg:block absolute bg-gradient-to-r from-white to-transparent inset-y-0 left-0 w-6" />
-  <div class="hidden lg:block absolute bg-gradient-to-l from-white to-transparent inset-y-0 right-0 w-6" />
+  <div class="hidden lg:block absolute bg-gradient-to-r from-white inset-y-0 left-0 w-6" />
+  <div class="hidden lg:block absolute bg-gradient-to-l from-white inset-y-0 right-0 w-6" />
 </template>
 
 <script setup lang="ts">
