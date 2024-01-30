@@ -6,20 +6,12 @@
           <p class="text-lg font-bold">
             Explora
           </p>
-          <NuxtLink href="/nosotros">
-            Nosotros
-          </NuxtLink>
-          <NuxtLink href="/como-funciona">
-            ¿Cómo funciona?
-          </NuxtLink>
-          <NuxtLink href="/socios">
-            Socios Ziff
-          </NuxtLink>
-          <NuxtLink href="/blog">
-            Blog
-          </NuxtLink>
-          <NuxtLink href="/faq">
-            Preguntas frecuentes
+          <NuxtLink
+            v-for="item in navItems"
+            :key="item.href"
+            :href="item.href"
+          >
+            {{ item.name }}
           </NuxtLink>
           <NuxtLink href="/">
             Términos y condiciones
@@ -80,3 +72,11 @@
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+interface NavItem {
+  name: string
+  href: string
+}
+const navItems = useState<NavItem[]>('navItems')
+</script>

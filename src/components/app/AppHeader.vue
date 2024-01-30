@@ -77,8 +77,7 @@ interface NavItem {
   name: string
   href: string
 }
-
-const navItems: NavItem[] = [
+const navItems = useState<NavItem[]>('navItems', () => ([
   {
     name: 'Nosotros',
     href: '/nosotros'
@@ -99,7 +98,7 @@ const navItems: NavItem[] = [
     name: 'Preguntas Frecuentes',
     href: '/faq'
   }
-]
+]))
 
 const toggleNav = () => {
   navOpen.value = !navOpen.value
