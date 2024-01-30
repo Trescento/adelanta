@@ -1,68 +1,73 @@
 <template>
-  <section class="container my-24">
-    <div class="grid grid-cols-1 md:grid-cols-2 rounded-3xl overflow-hidden">
-      <div class="flex flex-col justify-center bg-brand-purple-secondary text-white p-12">
-        <div class="relative mb-6">
-          <h2 class="text-[2.5rem] leading-[3.125rem] lg:text-6xl lg:leading-[5.06rem] font-bold">
-            Sé
-            <span class="relative">el primero
-              <img src="~/assets/line-3.svg" class="absolute -bottom-3 lg:-bottom-5 w-full h-auto left-0 object-fill">
-            </span> <br>en enterarte
-          </h2>
-          <!-- Mobile -->
-          <div class="flex md:hidden absolute left-64 bottom-0 gap-1">
-            <img src="~/assets/star.svg" class="hidden w-6 h-6">
-            <img src="~/assets/star.svg" class="hidden h-10 w-10">
-            <img src="~/assets/star.svg" class="h-6 w-6">
-            <img src="~/assets/star.svg" class="h-2 w-2">
-          </div>
-          <!-- Desktop -->
-          <div class="lg:flex hidden absolute right-0 top-0 gap-1">
-            <img src="~/assets/star.svg" class="h-6 w-6">
-            <img src="~/assets/star.svg" class="h-10 w-10">
-          </div>
-        </div>
+  <section class="container my-24 max-w-8xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 bg-metallic rounded-3xl p-10 pb-14 relative overflow-hidden">
+      <div class="absolute rotate-180 md:rotate-0 right-0 top-0 md:top-auto md:right-auto md:bottom-0 md:left-0">
+        <svg xmlns="http://www.w3.org/2000/svg" width="348" height="348" viewBox="0 0 506 380" fill="none">
+          <g filter="url(#filter0_f_290_763)">
+            <path d="M-42 300C-42 244.772 2.77153 200 58 200H206C261.228 200 306 244.772 306 300V448C306 503.228 261.228 548 206 548H58C2.77153 548 -42 503.228 -42 448V300Z" fill="url(#paint0_linear_290_763)" />
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_290_763"
+              x="-242"
+              y="0"
+              width="748"
+              height="748"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+              <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_290_763" />
+            </filter>
+            <linearGradient
+              id="paint0_linear_290_763"
+              x1="132"
+              y1="200"
+              x2="132"
+              y2="548"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#6D3EFF" stop-opacity="0.01" />
+              <stop offset="1" stop-color="#D3C5FF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <p class="text-brand text-[2.5rem] font-bold">
+        Sé el primero <br><span class="text-brand-black">en enterarte</span>
+      </p>
+      <div>
         <p class="text-lg mb-8">
           Suscríbete a nuestro boletín para recibir noticias, ofertas y contenido exclusivo.
         </p>
-        <form class="flex flex-col gap-4 w-full">
-          <div class="flex flex-col gap-2">
-            <label for="email" class="text-sm">Nombre</label>
-            <input id="email" type="email" class="border border-gray-300 rounded-md p-2">
+        <div class="flex flex-col gap-4">
+          <div>
+            <label for="name">Nombre</label>
+            <input id="name" type="text" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu nombre">
           </div>
-          <div class="flex flex-col gap-2">
-            <label for="email" class="text-sm">Apellido</label>
-            <input id="email" type="email" class="border border-gray-300 rounded-md p-2">
+          <div>
+            <label for="last-name">Apellido</label>
+            <input id="last-name" type="text" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu apellido">
           </div>
-          <div class="flex flex-col gap-2">
-            <label for="email" class="text-sm">Correo electrónico</label>
-            <input id="email" type="email" class="border border-gray-300 rounded-md p-2">
+          <div>
+            <label for="email">Correo electrónico</label>
+            <input id="email" type="email" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu correo electrónico">
           </div>
-          <div class="flex gap-2 items-center">
-            <input id="terms" type="checkbox" class="border border-gray-300 rounded-md h-6 w-6 accent-brand">
-            <label for="terms" class="text-sm">Estoy de acuerdo con la política de privacidad y los términos de uso</label>
+          <!-- Checkbox -->
+          <div class="flex gap-2">
+            <input id="terms" type="checkbox" class="rounded-lg accent-brand w-6 h-6">
+            <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">Estoy de acuerdo con la política de privacidad y los términos de uso</label>
           </div>
-          <BaseButton>
-            <div class="flex justify-between w-full items-center">
-              <span class="text-lg font-semibold">Enviar</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </div>
-          </BaseButton>
-        </form>
+        </div>
+        <CommonBaseButton class="w-full flex justify-between mt-6">
+          <span class="font-semibold text-lg">Enviar</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </CommonBaseButton>
       </div>
-      <img src="/images/value.jpeg" width="100%" class="hidden md:block object-cover h-full">
     </div>
   </section>
 </template>
-
-<script>
-import BaseButton from '~/components/common/BaseButton.vue'
-export default {
-  components: {
-    BaseButton
-  }
-}
-</script>
