@@ -36,9 +36,9 @@
           <NuxtLink href="/">
             <img src="/logo-white.png" alt="Ziff" class="h-16">
           </NuxtLink>
-          <BaseButton>
+          <CommonBaseButton>
             <span class="font-normal">Registrarme</span>
-          </BaseButton>
+          </CommonBaseButton>
           <div class="flex gap-2">
             <NuxtLink href="#" class="rounded-full bg-brand-purple-dark-light flex items-center justify-center w-8 h-8">
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
@@ -80,14 +80,3 @@
     </div>
   </footer>
 </template>
-
-<script>
-import BaseButton from '~/components/common/BaseButton.vue'
-
-export default {
-  components: {
-    BaseButton
-  }
-}
-
-</script>
