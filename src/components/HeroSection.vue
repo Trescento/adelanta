@@ -1,16 +1,16 @@
 <template>
-  <section class="container  flex flex-col lg:flex-row justify-between items-center mb-24 mt-4 lg:mt-24">
+  <section class="container flex flex-col lg:flex-row justify-between items-end mb-24 mt-4 lg:mt-24">
     <div class="max-w-[580px] lg:order-2 lg:overflow-hidden relative bg-white mb-6 lg:mb-0 z-10">
       <HeroImagesCarousel />
     </div>
     <div class="lg:mr-16 max-w-[700px] w-full flex flex-col lg:order-1">
-      <h1 class="text-4xl xl:text-[4rem] font-bold leading-[normal] text-balance mt-4 mb-6">
+      <h1 class="text-4xl lg:text-[4rem] font-bold leading-[normal] text-balance mt-4 mb-6">
         Accede capital para crecer tu negocio sin endeudarte
       </h1>
       <div>
         <HeroTextCarousel />
       </div>
-      <div class="mt-6">
+      <div class="mt-6 lg:mt-20">
         <BaseButton>
           <span class="block lg:hidden">Solicitar capital</span>
           <span class="hidden lg:block">Solicita capital por adelantado</span>
