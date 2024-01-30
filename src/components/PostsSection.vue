@@ -1,6 +1,6 @@
 <template>
-  <section class="container flex flex-col lg:flex-row py-12 gap-6 mr-0 pr-0">
-    <div class="max-w-sm w-full">
+  <section class="lg:container flex flex-col lg:flex-row py-12 gap-6 pr-0 overflow-x-visible">
+    <div class="max-w-sm w-full px-6">
       <h3 class="text-[2.5rem] font-bold mb-6">
         Publicaciones en medios
       </h3>
@@ -10,11 +10,11 @@
     </div>
     <div class="flex flex-col overflow-x-auto">
       <div class="flex flex-col">
-        <div ref="carouselContainer" class="flex overflow-x-auto snap-x snap-mandatory gap-4 scroll-smooth lg:scroll-bar-hidden pr-4">
+        <div ref="carouselContainer" class="flex overflow-x-auto snap-x snap-mandatory gap-4 scroll-smooth lg:scroll-bar-hidden px-4">
           <NosotrosPostsItem v-for="post in posts" :key="post.title" :title="post.title" :description="post.description" />
         </div>
       </div>
-      <div class="lg:hidden mt-4">
+      <div class="lg:hidden mt-4 px-4 lg:px-0">
         <CommonBaseButton>
           <span>¿Cómo funciona?</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
