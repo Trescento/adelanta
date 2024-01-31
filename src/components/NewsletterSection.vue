@@ -55,7 +55,7 @@
             <input id="email" type="email" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu correo electrónico">
           </div>
           <!-- Checkbox -->
-          <div class="flex gap-2">
+          <div class="flex gap-2 items-center">
             <input id="terms" type="checkbox" class="rounded-lg accent-brand w-6 h-6">
             <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">Estoy de acuerdo con la política de privacidad y los términos de uso</label>
           </div>
