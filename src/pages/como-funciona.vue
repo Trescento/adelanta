@@ -1,3 +1,3 @@
 <template>
-  <p>Como Funciona?</p>
+  <ViewComoFunciona />
 </template>
