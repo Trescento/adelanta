@@ -1,8 +1,5 @@
 <template>
-  <NosotrosQuienesSomosSection />
-  <NosotrosMisionSection />
-  <NosotrosVisionSection />
-  <PostsSection />
+  <ViewNosotros />
 </template>
 
 <script setup lang="ts">
