@@ -26,9 +26,6 @@ export default {
             'dark-light': 'rgba(109, 62, 255, 0.30)',
             light: '#D3c5ff'
           },
-          secondary: {
-            purple: '#271948'
-          },
           black: '#150D26',
           gray90: '#F6F6F6'
         }
