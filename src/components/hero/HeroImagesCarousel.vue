@@ -15,7 +15,7 @@
     }"
     class="hidden lg:flex flex-nowrap min-w-[392px]"
   >
-    <template v-for="n in 2">
+    <template v-for="n in 3">
       <img v-for="image in images" :key="`desktop-img-${n}-${image}`" :src="`/images/hero/${image}`" alt="Placeholder" class="rounded-3xl h-[588px] mr-4">
     </template>
     <!-- <img v-for="n in 3" src="https://via.placeholder.com/391x588" alt="Placeholder" class="rounded-3xl" /> -->
@@ -36,7 +36,7 @@
     }"
     class="flex lg:hidden flex-nowrap min-w-[234px]"
   >
-    <template v-for="n in 2">
+    <template v-for="n in 3">
       <img v-for="image in images" :key="`mobile-img-${n}-${image}`" :src="`/images/hero/${image}`" alt="Placeholder" class="rounded-3xl h-[351px] mr-4">
     </template>
     <!-- <img v-for="n in 3" src="https://via.placeholder.com/391x588" alt="Placeholder" class="rounded-3xl" /> -->
