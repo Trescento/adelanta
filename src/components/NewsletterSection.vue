@@ -1,7 +1,7 @@
 <template>
   <section class="container my-24 max-w-8xl">
-    <div class="grid grid-cols-1 md:grid-cols-2 bg-metallic rounded-3xl p-10 pb-14 relative overflow-hidden">
-      <div class="absolute rotate-180 md:rotate-0 right-0 top-0 md:top-auto md:right-auto md:bottom-0 md:left-0">
+    <div class="relative grid grid-cols-1 p-10 overflow-hidden md:grid-cols-2 bg-metallic rounded-3xl pb-14">
+      <div class="absolute top-0 right-0 rotate-180 md:rotate-0 md:top-auto md:right-auto md:bottom-0 md:left-0">
         <svg xmlns="http://www.w3.org/2000/svg" width="348" height="348" viewBox="0 0 506 380" fill="none">
           <g filter="url(#filter0_f_290_763)">
             <path d="M-42 300C-42 244.772 2.77153 200 58 200H206C261.228 200 306 244.772 306 300V448C306 503.228 261.228 548 206 548H58C2.77153 548 -42 503.228 -42 448V300Z" fill="url(#paint0_linear_290_763)" />
@@ -38,34 +38,31 @@
         Sé el primero <br><span class="text-brand-black">en enterarte</span>
       </p>
       <div>
-        <p class="text-lg mb-8">
+        <p class="mb-8 text-lg">
           Suscríbete a nuestro boletín para recibir noticias, ofertas y contenido exclusivo.
         </p>
         <div class="flex flex-col gap-4">
           <div>
             <label for="name">Nombre</label>
-            <input id="name" type="text" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu nombre">
+            <input id="name" type="text" class="w-full p-3 mt-2 rounded-lg" placeholder="Entra tu nombre">
           </div>
           <div>
             <label for="last-name">Apellido</label>
-            <input id="last-name" type="text" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu apellido">
+            <input id="last-name" type="text" class="w-full p-3 mt-2 rounded-lg" placeholder="Entra tu apellido">
           </div>
           <div>
             <label for="email">Correo electrónico</label>
-            <input id="email" type="email" class="rounded-lg p-3 w-full mt-2" placeholder="Entra tu correo electrónico">
+            <input id="email" type="email" class="w-full p-3 mt-2 rounded-lg" placeholder="Entra tu correo electrónico">
           </div>
           <!-- Checkbox -->
-          <div class="flex gap-2 items-center">
-            <input id="terms" type="checkbox" class="rounded-lg accent-brand w-6 h-6">
+          <div class="flex items-center gap-2">
+            <input id="terms" type="checkbox" class="w-6 h-6 rounded-lg accent-brand">
             <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">Estoy de acuerdo con la política de privacidad y los términos de uso</label>
           </div>
         </div>
-        <CommonBaseButton class="w-full flex justify-between mt-6">
-          <span class="font-semibold text-lg">Enviar</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
+        <CommonBaseButton class="flex justify-between w-full mt-6">
+          <span class="text-lg font-semibold">Enviar</span>
+          <CommonArrowIcon />
         </CommonBaseButton>
       </div>
     </div>

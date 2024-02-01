@@ -25,23 +25,10 @@
       </div>
       <div class="hidden lg:flex items-center justify-center gap-4 mt-4">
         <button class="bg-brand rounded-full w-8 h-8 flex items-center justify-center" @click="scrollLeft">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            class="rotate-180"
-          >
-            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
+          <CommonArrowIcon type="white" class="rotate-180" />
         </button>
         <button class="bg-brand rounded-full w-8 h-8 flex items-center justify-center" @click="scrollRight">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
+          <CommonArrowIcon type="white" />
         </button>
       </div>
     </div>
