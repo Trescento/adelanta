@@ -1,3 +1,3 @@
 <template>
-  <p>Socios Ziff</p>
+  <ViewSocios />
 </template>
