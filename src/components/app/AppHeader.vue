@@ -1,6 +1,6 @@
 <template>
-  <header class="relative">
-    <div class="container flex justify-between py-4 relative bg-white z-[9999]">
+  <header :class="`relative ${classBackground}`">
+    <div class="container flex justify-between py-4 relative z-[9999]">
       <button class="xl:hidden" @click="toggleNav">
         <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
         <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
@@ -14,6 +14,7 @@
             v-for="item in navItems"
             :key="item.href"
             :href="item.href"
+            :class="`transition-colors ${route.path === item.href ? 'text-brand' : ''}`"
           >
             {{ item.name }}
           </NuxtLink>
@@ -42,6 +43,7 @@
           :key="item.href"
           :href="item.href"
           class="text-[2rem] font-bold text-balance"
+          :class="route.path === item.href ? 'text-brand' : ''"
           @click="toggleNav"
         >
           {{ item.name }}
@@ -72,11 +74,22 @@
 
 <script setup lang="ts">
 const navOpen = useState('isNavOpen', () => false)
+const route = useRoute()
+const { headerColor } = useHeaderColor()
+
+const backgroundColors = {
+  white: 'bg-white',
+  purple: 'bg-brand',
+  gray90: 'bg-brand-gray90'
+}
+
+const classBackground = computed(() => backgroundColors[headerColor.value])
 
 interface NavItem {
   name: string
   href: string
 }
+
 const navItems = useState<NavItem[]>('navItems', () => ([
   {
     name: 'Nosotros',
