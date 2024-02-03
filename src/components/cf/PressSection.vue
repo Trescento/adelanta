@@ -1,6 +1,6 @@
 <template>
   <section class="container flex flex-col my-24">
-    <div class="flex flex-col lg:flex-row gap-16">
+    <div class="flex flex-col xl:flex-row gap-16">
       <div class="flex flex-col">
         <h2 class="text-[2.5rem] font-bold text-balance">
           ¿Cómo solicito mi adelanto?
@@ -9,8 +9,8 @@
           Cualquier tipo de inmueble, sólo necesitas tu contrato de arrendamiento y registrarte en Adelanta por Ziff.
         </p>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
-        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 lg:h-72">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 md:h-72">
           <div class="w-11 h-11 rounded-full bg-white items-center justify-center flex mb-6">
             1
           </div>
@@ -18,41 +18,41 @@
             Registrate y obtén tu pre-aprobación de inmediato
           </p>
         </div>
-        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 lg:h-72">
+        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 md:h-72">
           <div class=" w-11 h-11 rounded-full bg-white items-center justify-center flex mb-6">
             2
           </div>
           <p class="text-brand">
-            Registrate y obtén tu pre-aprobación de inmediato
+            Inicia sesión en ziff.com.mx y sube tus documentos
           </p>
         </div>
-        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 lg:h-72">
+        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 md:h-72">
           <div class=" w-11 h-11 rounded-full bg-white items-center justify-center flex mb-6">
             3
           </div>
           <p class="text-brand">
-            Registrate y obtén tu pre-aprobación de inmediato
+            Verificamos y aprobamos tu solicitud.
           </p>
         </div>
-        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 lg:h-72">
+        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 md:h-72">
           <div class=" w-11 h-11 rounded-full bg-white items-center justify-center flex mb-6">
             4
           </div>
           <p class="text-brand">
-            Registrate y obtén tu pre-aprobación de inmediato
+            Firma tu contrato de ingresos recurrentes. Recibe tu adelanto.
           </p>
         </div>
-        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 lg:h-72">
+        <div class="bg-brand-purple-light rounded-3xl text-xl font-bold p-8 md:h-72">
           <div class=" w-11 h-11 rounded-full bg-white items-center justify-center flex mb-6">
             5
           </div>
           <p class="text-brand">
-            Registrate y obtén tu pre-aprobación de inmediato
+            Tu inquilino paga el adelanto a Ziff
           </p>
         </div>
       </div>
     </div>
-    <div class="flex items-center lg:justify-center  mt-6 lg:mt-12">
+    <div class="flex items-center md:justify-center  mt-6 md:mt-12">
       <CommonBaseButton>
         <span class="font-normal">Registrarme</span>
         <CommonArrowIcon />
