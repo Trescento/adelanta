@@ -3,7 +3,7 @@
     <div
       class="container max-w-7xl lg:px-4 px-0"
     >
-      <div class="flex flex-col lg:flex-row items-center">
+      <div class="flex flex-col gap-4 lg:flex-row items-center">
         <img
           class="lg:rounded-3xl shrink-0 self-stretch object-cover lg:-mr-[151px] lg:w-5/12 -mb-[151px] lg:mb-0 w-full min-h-80"
           src="/how-nuestros-productos.jpeg"
