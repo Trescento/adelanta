@@ -10,6 +10,7 @@
             v-for="item in navItems"
             :key="item.href"
             :href="item.href"
+            :class="`hover:underline ${route.path === item.href ? 'text-brand' : ''}`"
           >
             {{ item.name }}
           </NuxtLink>
@@ -79,4 +80,5 @@ interface NavItem {
   href: string
 }
 const navItems = useState<NavItem[]>('navItems')
+const route = useRoute()
 </script>
