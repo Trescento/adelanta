@@ -31,7 +31,7 @@
         <div
           class="flex flex-col flex-1 gap-2 px-8 pb-8 border rounded-3xl"
         >
-          <img src="~/assets/testimonials.png" alt="" class="mx-auto rounded-full h-28 w-28 -mt-14">
+          <img :src="testimonial.image" alt="" class="mx-auto rounded-full h-28 w-28 -mt-14">
           <p class="pt-2 text-lg">
             {{ testimonial.name }}
           </p>
@@ -113,17 +113,22 @@ const testimonials = ref([
   {
     name: 'Ana Laura P.',
     role: 'Asesor Inmobiliario de CDMX',
-    text: 'Con Arrenda he incrementado mis ingresos sólo conectando a mis contactos y además ahora cuento con otro servicio para ofrecer.'
+    text: 'Con Arrenda he incrementado mis ingresos sólo conectando a mis contactos y además ahora cuento con otro servicio para ofrecer.',
+    image: '/assets/testimonials.png'
   },
   {
-    name: 'Ana P Laura',
-    role: 'Asesor Inmobiliario de CDMX',
-    text: 'Con Arrenda he incrementado mis ingresos sólo conectando a mis contactos y además ahora cuento con otro servicio para ofrecer.'
+    name: 'José R.',
+    role: 'Asesor inmobiliaria en Nuevo León',
+    text: 'Me gusta mucho que puedo ganar dinero solo enviando a mis clientes sin esfuerzos de venta extras.',
+    image: '/assets/testimonials.png'
+
   },
   {
-    name: 'P Laura Ana',
-    role: 'Asesor Inmobiliario de CDMX',
-    text: 'Con Arrenda he incrementado mis ingresos sólo conectando a mis contactos y además ahora cuento con otro servicio para ofrecer.'
+    name: 'Omar V.',
+    role: 'Asesor Inmobiliario de Puebla',
+    text: 'Adelanta de Arrenda es un servicio que puedo ofrecer a mis clientes y es un producto fácil de ofrecer.',
+    image: '/assets/testimonials.png'
+
   }
 ])
 

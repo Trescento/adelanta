@@ -7,8 +7,7 @@
         ¿Cómo funciona?
       </h1>
       <p class="text-balance text-lg max-w-md">
-        Nuestro principal producto se encuentra enfocado en servir a los dueños de propiedades comerciales en renta (Arrendadores), y los dueños de negocios que tienen ingresos recurrentes por cobrar. Este producto se llama
-        <span class="font-bold text-brand">Adelanta por Ziff</span>, en el cual puedes solicitar un adelanto del pago de tus rentas de acuerdo al contrato de arrendamiento vigente.
+        Enfocamos nuestro principal producto en atender a dos grupos clave: los arrendadores de propiedades comerciales y los propietarios de negocios con ingresos recurrentes pendientes. Este producto, conocido como <span class="font-bold text-brand">Adelanta por Ziff</span>, ofrece la posibilidad de solicitar adelantos de pago sobre las rentas pactadas en los contratos de arrendamiento vigentes.
       </p>
     </div>
   </div>

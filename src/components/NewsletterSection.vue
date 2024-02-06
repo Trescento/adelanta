@@ -39,7 +39,7 @@
       </p>
       <div>
         <p class="mb-8 text-lg">
-          Suscríbete a nuestro boletín para recibir noticias, ofertas y contenido exclusivo.
+          No te pierdas ninguna novedad: suscríbete a nuestro boletín informativo.
         </p>
         <div class="flex flex-col gap-4">
           <div>
