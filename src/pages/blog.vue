@@ -1,3 +1,3 @@
 <template>
-  <p>Blog</p>
+  <ViewBlog />
 </template>
