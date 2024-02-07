@@ -50,7 +50,7 @@
             </p>
           </div>
           <div class="collapse-content">
-            <p class="text-lg px-5">
+            <p class="text-lg px-5 whitespace-pre-wrap">
               {{ question.answer }}
             </p>
           </div>
