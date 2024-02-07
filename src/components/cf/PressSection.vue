@@ -6,7 +6,7 @@
           ¿Cómo solicito mi adelanto?
         </h2>
         <p class="text-balance">
-          Cualquier tipo de inmueble, sólo necesitas tu contrato de arrendamiento y registrarte en Adelanta por Ziff.
+          Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
