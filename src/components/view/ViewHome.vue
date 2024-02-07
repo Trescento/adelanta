@@ -2,7 +2,7 @@
   <HeroSection />
   <StepsSection />
   <ValueSection />
-  <VideoSection />
+  <!-- <VideoSection /> -->
   <TestimonialsSection />
   <NewsletterSection />
 </template>
