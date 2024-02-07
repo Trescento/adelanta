@@ -9,8 +9,8 @@
           src="/how-nuestros-productos.jpeg"
           alt="Grow Together"
         >
-        <div class="bg-brand rounded-3xl p-8 pt-24 text-center flex flex-col gap-4 items-center mx-6 lg:mx-0 w-11/12 lg:w-full">
-          <img src="/logo-white.png" alt="Adelanta por ziff logo" class="h-[70px] object-contain">
+        <div class="bg-brand rounded-3xl p-8 text-center flex flex-col gap-6 items-center mx-6 lg:mx-0 w-11/12 lg:w-full">
+          <img src="/logo-white.png" alt="Adelanta por ziff logo" class="h-[85px] object-contain">
           <p class="text-brand-gray90 text-lg max-w-[545px]">
             <b>Adelanta por Ziff</b> es un producto financiero único que brinda liquidez a propietarios de propiedades comerciales que cuentan con contratos de arrendamiento vigentes.
           </p>
