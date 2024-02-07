@@ -1,3 +1,9 @@
+<script setup lang="ts">
+definePageMeta({
+  headerColor: 'gray90'
+})
+</script>
+
 <template>
-  <p>FAQ</p>
+  <ViewFAQ />
 </template>
