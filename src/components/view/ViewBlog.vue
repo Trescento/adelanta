@@ -1,5 +1,7 @@
 <template>
   <BlogHeroSection />
   <BlogLatestPosts />
-  <ValueSection />
+  <div class="mt-12 lg:mb-0">
+    <ValueSection />
+  </div>
 </template>
