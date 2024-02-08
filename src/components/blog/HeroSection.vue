@@ -39,7 +39,7 @@
               Revaloriza tu local comercial, revaloriza tu patrimonio Poseer un local comercial es una inversión significativa, y maximizar su valor es esencial para el éxito a largo plazo. Ya sea que estés buscando atraer a inquilinos de alta calidad o aumentar
             </p>
             <CommonBaseButton type="ghost">
-              <span>Leer más</span>
+              <span class="font-medium">Leer más</span>
               <CommonArrowIcon type="primary" />
             </CommonBaseButton>
           </div>
@@ -56,7 +56,7 @@
               ¿Qué es el factoraje? ¿Existen mejores soluciones? El factoraje, también conocido como factoring, es una práctica financiera que ha ganado relevancia en el mundo empresarial como una herramienta estratégica para mejorar la liquidez y gestionar eficientemente el capital de trabajo.
             </p>
             <CommonBaseButton type="ghost">
-              <span>Leer más</span>
+              <span class="font-medium">Leer más</span>
               <CommonArrowIcon type="primary" />
             </CommonBaseButton>
           </div>
