@@ -73,7 +73,7 @@ interface Topic {
 
 const topics: Topic[] = [
   {
-    name: 'Acerca de Adelanta',
+    name: 'Acerca de Ziff',
     questions: [
       {
         question: '¿Qué es Ziff?',
@@ -84,11 +84,11 @@ const topics: Topic[] = [
         answer: 'Nuestro producto principal lleva el nombre de Adelanta por Ziff, brindándote la posibilidad de solicitar un adelanto de hasta 36 meses en el pago de tus cuentas por cobrar, conforme a los términos del contrato vigente.'
       },
       {
-        question: 'Qué no es Ziff?',
+        question: '¿Qué no es Ziff?',
         answer: 'Ziff no es un Banco, ni una inmobiliaria que compre y venda bienes inmuebles, tampoco nos dedicamos a rentar y/o gestionar los inmuebles de los propietarios.'
       },
       {
-        question: 'Por qué elegir Arrenda en vez de otros tipos de financiamiento?',
+        question: '¿Por qué elegir Ziff en vez de otros tipos de financiamiento?',
         answer: 'Ziff ofrece soluciones financieras a propietarios de inmuebles que cuenten con contratos de arrendamiento vigentes sin necesidad de dejar alguna garantía o hipotecar algún activo. El proceso de solicitud es muy sencillo y garantizamos tu adelanto en menos de 72 horas a partir de la revisión y aprobación de documentos.'
       },
       {
@@ -96,7 +96,7 @@ const topics: Topic[] = [
         answer: 'Dentro de nuestra cobertura está contemplada toda la República Méxicana.'
       },
       {
-        question: '¿Cómo puedo contactar a Arrenda?',
+        question: '¿Cómo puedo contactar a Adelanta por Ziff?',
         answer: `Tenemos diversos medios para que nos puedas contactar de acuerdo al que utilices preferentemente:
 Por correo electrónico hola@ziff.com.mx
 Por whatsapp +52 55 7068 9383`
@@ -129,7 +129,7 @@ Por whatsapp +52 55 7068 9383`
     ]
   },
   {
-    name: 'Requisitos de Adelanta de Arrenda',
+    name: 'Requisitos para solicitar un adelanto',
     description: 'Es importante que conozcas los requisitos necesarios al momento de solicitar un Adelanto, en esta sección te lo explicamos.',
     questions: [
       {
@@ -267,7 +267,7 @@ Aceptar nuestros Términos y Condiciones, así como firmar los documentos legale
     ]
   },
   {
-    name: 'Depósito del adelanto',
+    name: 'Depósito de tu adelanto',
     description: 'Aquí podrás encontrar información importante referente al depósito de tu adelanto solicitado una vez aprobado.',
     questions: [
       {

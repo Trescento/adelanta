@@ -12,7 +12,7 @@
         <CommonArrowIcon />
       </CommonBaseButton>
     </ImageInfo>
-    <ImageInfo img="/how-nuestros-productos.jpeg" type="secondary" img-left>
+    <ImageInfo img="/images/generic1.jpg" type="secondary" img-left>
       <p class="font-bold text-[2rem] max-w-lg">
         Nosotros nos encargamos de la venta
       </p>

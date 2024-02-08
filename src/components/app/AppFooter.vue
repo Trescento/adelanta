@@ -3,9 +3,6 @@
     <div class="container py-16 pb-10">
       <div class="flex flex-col md:flex-row gap-12">
         <div class="flex flex-col gap-4 text-sm md:order-2 md:flex-1">
-          <p class="text-lg font-bold">
-            Explora
-          </p>
           <NuxtLink
             v-for="item in navItems"
             :key="item.href"
@@ -27,7 +24,7 @@
         </div>
         <div class="flex flex-col gap-6 items-center md:order-1 md:items-start md:flex-1">
           <NuxtLink href="/">
-            <img src="/logo-white.png" alt="Ziff" class="h-16">
+            <img src="/logo-white.png" alt="Ziff" class="h-20">
           </NuxtLink>
           <CommonBaseButton>
             <span class="font-normal">Registrarme</span>

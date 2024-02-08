@@ -21,12 +21,12 @@
         </nav>
         <!-- Buttons -->
         <div class="flex">
-          <NuxtLink href="#" class="hidden px-6 py-2 mr-3 border rounded-lg xl:block border-brand-black">
+          <a href="https://app.arrenda.mx/login/" target="_noblank" class="hidden px-6 py-2 mr-3 border rounded-lg xl:block border-brand-black">
             Iniciar Sesión
-          </NuxtLink>
-          <NuxtLink href="#" class="px-6 py-2 text-white border rounded-lg border-brand bg-brand">
+          </a>
+          <a href="https://app.arrenda.mx/register/" target="_noblank" class="px-6 py-2 text-white border rounded-lg border-brand bg-brand">
             Registrarme
-          </NuxtLink>
+          </a>
         </div>
       </div>
     </div>

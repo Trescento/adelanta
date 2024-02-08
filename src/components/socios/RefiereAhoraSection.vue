@@ -4,7 +4,7 @@
       <h3 class="text-white text-center text-[2rem] font-bold">
         Refiere ahora y ¡comienza a ganar comisiones!
       </h3>
-      <ImageInfo img="/how-nuestros-productos.jpeg" class="md:container" img-left>
+      <ImageInfo img="/images/generic2.jpg" class="md:container" img-left>
         <p class="font-bold text-[1.75rem] max-w-3xl text-balance">
           Hemos adelantado más de $100 millones de pesos en ingresos a lo largo de la República Mexicana
         </p>

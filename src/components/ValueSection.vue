@@ -21,7 +21,7 @@
       >
       <div class="bg-brand rounded-3xl p-8 text-center flex flex-col items-center mx-6 lg:mx-0">
         <p class="text-brand-purple-light text-2xl lg:text-[2rem] font-bold leading-snug">
-          No dejes que las preocupaciones financieras afectan tu negocio.<br>
+          No dejes que tus preocupaciones financieras afecten tu negocio.<br>
           Con nuestras opciones de financiamiento, puedes concentrarte en lo importante:
         </p>
         <p class="text-[2rem] lg:text-[2.5rem] text-white font-bold mb-6">
