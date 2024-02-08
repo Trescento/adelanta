@@ -5,7 +5,7 @@
         <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
         <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
       </button>
-      <NuxtLink href="/">
+      <NuxtLink href="/" @click="navOpen ? toggleNav() : null">
         <img src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]">
       </NuxtLink>
       <div class="flex items-center gap-6">
@@ -32,41 +32,43 @@
     </div>
     <div
       v-if="navOpen"
-      class="bg-white absolute top-0 inset-x-0 h-dvh flex flex-col pt-24 container overflow-hidden z-[9998]"
+      class="bg-white fixed top-0 inset-x-0 h-dvh pt-24 overflow-hidden z-[9998]"
     >
-      <nav class="flex flex-col gap-6">
-        <CommonBaseButton type="black">
-          <span class="font-medium mx-auto">Iniciar Sesión</span>
-        </CommonBaseButton>
-        <NuxtLink
-          v-for="item in navItems"
-          :key="item.href"
-          :href="item.href"
-          class="text-[2rem] font-bold text-balance"
-          :class="route.path === item.href ? 'text-brand' : ''"
-          @click="toggleNav"
-        >
-          {{ item.name }}
-        </NuxtLink>
-      </nav>
+      <div class="flex flex-col container h-full">
+        <nav class="flex flex-col gap-6">
+          <CommonBaseButton type="black">
+            <span class="font-medium mx-auto">Iniciar Sesión</span>
+          </CommonBaseButton>
+          <NuxtLink
+            v-for="item in navItems"
+            :key="item.href"
+            :href="item.href"
+            class="text-[2rem] font-bold text-balance"
+            :class="route.path === item.href ? 'text-brand' : ''"
+            @click="toggleNav"
+          >
+            {{ item.name }}
+          </NuxtLink>
+        </nav>
 
-      <!-- Social Links -->
-      <div class="mt-auto mb-8 flex gap-6">
-        <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
-          <CommonSocialIcon icon="linkedin" :width="18" :height="18" />
-        </NuxtLink>
-        <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
-          <CommonSocialIcon icon="facebook" :width="18" :height="18" />
-        </NuxtLink>
-        <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
-          <CommonSocialIcon icon="instagram" :width="18" :height="18" />
-        </NuxtLink>
-        <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
-          <CommonSocialIcon icon="twitter" :width="18" :height="18" />
-        </NuxtLink>
-        <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
-          <CommonSocialIcon icon="tiktok" :width="18" :height="18" />
-        </NuxtLink>
+        <!-- Social Links -->
+        <div class="mt-auto mb-8 flex gap-6">
+          <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
+            <CommonSocialIcon icon="linkedin" :width="18" :height="18" />
+          </NuxtLink>
+          <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
+            <CommonSocialIcon icon="facebook" :width="18" :height="18" />
+          </NuxtLink>
+          <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
+            <CommonSocialIcon icon="instagram" :width="18" :height="18" />
+          </NuxtLink>
+          <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
+            <CommonSocialIcon icon="twitter" :width="18" :height="18" />
+          </NuxtLink>
+          <NuxtLink href="#" class="w-10 h-10 text-white border rounded-full flex items-center justify-center border-brand bg-brand">
+            <CommonSocialIcon icon="tiktok" :width="18" :height="18" />
+          </NuxtLink>
+        </div>
       </div>
     </div>
   </header>
@@ -83,6 +85,7 @@ const backgroundColors = {
   gray90: 'bg-brand-gray90'
 }
 
+// @ts-expect-error
 const classBackground = computed(() => backgroundColors[headerColor.value])
 
 interface NavItem {
@@ -115,5 +118,10 @@ const navItems = useState<NavItem[]>('navItems', () => ([
 
 const toggleNav = () => {
   navOpen.value = !navOpen.value
+  if (navOpen.value) {
+    document.body.style.overflow = 'hidden'
+  } else {
+    document.body.style.overflow = 'auto'
+  }
 }
 </script>
