@@ -27,11 +27,11 @@
         </p>
       </div>
       <div class="grid auto-rows-fr grid-cols-1 gap-6">
-        <div class="rounded-3xl flex bg-white overflow-hidden">
-          <div class="w-1/2 relative">
+        <div class="rounded-3xl flex flex-col lg:flex-row bg-white overflow-hidden">
+          <div class="w-full h-72 lg:w-1/2 lg:h-auto relative">
             <img src="https://placehold.it/400x400" alt="Blog Hero Image" class="absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover">
           </div>
-          <div class="flex flex-col p-6 gap-6 w-1/2">
+          <div class="flex flex-col p-6 gap-6 lg:w-1/2">
             <p class="font-bold text-2xl">
               Cómo revalorizar tu local comercial: 7 consejos clave
             </p>
@@ -44,8 +44,8 @@
             </CommonBaseButton>
           </div>
         </div>
-        <div class="rounded-3xl flex bg-white overflow-hidden">
-          <div class="w-1/2 relative">
+        <div class="rounded-3xl flex flex-col lg:flex-row bg-white overflow-hidden">
+          <div class="w-full h-72 lg:w-1/2 lg:h-auto relative">
             <img src="https://placehold.it/400x400" alt="Blog Hero Image" class="absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover">
           </div>
           <div class="flex flex-col p-6 gap-6 flex-1">
