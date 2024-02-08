@@ -27,41 +27,26 @@
         </p>
       </div>
       <div class="grid auto-rows-fr grid-cols-1 gap-6">
-        <div class="rounded-3xl flex flex-col lg:flex-row bg-white overflow-hidden">
-          <div class="w-full h-72 lg:w-1/2 lg:h-auto relative">
-            <img src="https://placehold.it/400x400" alt="Blog Hero Image" class="absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover">
-          </div>
-          <div class="flex flex-col p-6 gap-6 lg:w-1/2">
-            <p class="font-bold text-2xl">
-              Cómo revalorizar tu local comercial: 7 consejos clave
-            </p>
-            <p class=" line-clamp-3">
-              Revaloriza tu local comercial, revaloriza tu patrimonio Poseer un local comercial es una inversión significativa, y maximizar su valor es esencial para el éxito a largo plazo. Ya sea que estés buscando atraer a inquilinos de alta calidad o aumentar
-            </p>
-            <CommonBaseButton type="ghost">
-              <span class="font-medium">Leer más</span>
-              <CommonArrowIcon type="primary" />
-            </CommonBaseButton>
-          </div>
-        </div>
-        <div class="rounded-3xl flex flex-col lg:flex-row bg-white overflow-hidden">
-          <div class="w-full h-72 lg:w-1/2 lg:h-auto relative">
-            <img src="https://placehold.it/400x400" alt="Blog Hero Image" class="absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover">
-          </div>
-          <div class="flex flex-col p-6 gap-6 flex-1">
-            <p class="font-bold text-2xl">
-              ¿Qué es el factoraje y como puede ayudarnos?
-            </p>
-            <p class=" line-clamp-3">
-              ¿Qué es el factoraje? ¿Existen mejores soluciones? El factoraje, también conocido como factoring, es una práctica financiera que ha ganado relevancia en el mundo empresarial como una herramienta estratégica para mejorar la liquidez y gestionar eficientemente el capital de trabajo.
-            </p>
-            <CommonBaseButton type="ghost">
-              <span class="font-medium">Leer más</span>
-              <CommonArrowIcon type="primary" />
-            </CommonBaseButton>
-          </div>
-        </div>
+        <BlogHeroPost v-for="post in posts" :key="post.title" :post="post" />
       </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { type HeroPostProps } from '../../interfaces/HeroPost'
+
+const posts: HeroPostProps[] = [
+  {
+    title: 'Cómo revalorizar tu local comercial: 7 consejos clave',
+    description: 'Revaloriza tu local comercial, revaloriza tu patrimonio Poseer un local comercial es una inversión significativa, y maximizar su valor es esencial para el éxito a largo plazo. Ya sea que estés buscando atraer a inquilinos de alta calidad o aumentar',
+    image: 'https://placehold.it/400x400',
+    slug: '/blog/como-revalorizar-tu-local-comercial-7-consejos-clave'
+  }, {
+    title: '¿Qué es el factoraje y como puede ayudarnos?',
+    description: '¿Qué es el factoraje? ¿Existen mejores soluciones? El factoraje, también conocido como factoring, es una práctica financiera que ha ganado relevancia en el mundo empresarial como una herramienta estratégica para mejorar la liquidez y gestionar eficientemente el capital de trabajo.',
+    image: 'https://placehold.it/400x400',
+    slug: '/blog/que-es-el-factoraje-y-como-puede-ayudarnos'
+  }
+]
+</script>
