@@ -1,12 +1,17 @@
 <template>
-  <button :class="buttonClass">
+  <button v-if="!asAnchor" :class="buttonClass">
     <slot />
   </button>
+  <a v-else :class="buttonClass" :href="href">
+    <slot />
+  </a>
 </template>
 
 <script setup lang="ts">
 const props = defineProps<{
   type?: 'primary' | 'secondary' | 'ghost' | 'white' | 'black' | 'black-ghost'
+  asAnchor?: boolean
+  href?: string
 }>()
 
 const baseClass = 'text-lg font-semibold px-6 py-4 rounded-lg flex items-center space-x-4 border'
