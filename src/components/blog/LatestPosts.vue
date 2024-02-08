@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-brand-gray90 py-24">
+  <section class="bg-brand-gray90 pb-24">
     <div class="bg-brand-purple-light">
       <h2 class="text-[2rem] font-bold text-brand text-center py-12">
         Últimas publicaciones
