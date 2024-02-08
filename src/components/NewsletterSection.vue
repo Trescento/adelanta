@@ -34,12 +34,12 @@
           </defs>
         </svg>
       </div>
-      <p class="text-brand text-[2.5rem] font-bold">
-        Sé el primero <br><span class="text-brand-black">en enterarte</span>
+      <p class="text-brand text-[2.5rem] font-bold text-balance mb-8">
+        No te pierdas ninguna novedad: <br><span class="text-brand-black">suscríbete a nuestro boletín informativo.</span>
       </p>
       <div>
         <p class="mb-8 text-lg">
-          No te pierdas ninguna novedad: suscríbete a nuestro boletín informativo.
+          Suscríbete a nuestro boletín para recibir noticias, ofertas y contenido exclusivo.
         </p>
         <div class="flex flex-col gap-4">
           <div>
@@ -57,7 +57,7 @@
           <!-- Checkbox -->
           <div class="flex items-center gap-2">
             <input id="terms" type="checkbox" class="w-6 h-6 rounded-lg accent-brand">
-            <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">Estoy de acuerdo con la política de privacidad y los términos de uso</label>
+            <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">He leído, entiendo y acepto los términos del <a class="text-brand hover:underline" target="_noblank" href="/aviso-de-privacidad.pdf">Aviso de Privacidad</a>.</label>
           </div>
         </div>
         <CommonBaseButton class="flex justify-between w-full mt-6">
