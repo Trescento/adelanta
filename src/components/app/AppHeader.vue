@@ -36,9 +36,9 @@
     >
       <div class="flex flex-col container h-full">
         <nav class="flex flex-col gap-6">
-          <CommonBaseButton type="black">
-            <span class="font-medium mx-auto">Iniciar Sesión</span>
-          </CommonBaseButton>
+          <a href="https://app.arrenda.mx/login/" target="_noblank" class=" text-center text-lg py-4 mr-3 border rounded-lg xl:block border-brand-black">
+            Iniciar Sesión
+          </a>
           <NuxtLink
             v-for="item in navItems"
             :key="item.href"
