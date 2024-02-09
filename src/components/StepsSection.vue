@@ -52,7 +52,7 @@ const steps = {
   steps: [
     {
       title: 'Firma tu contrato con tu cliente o inquilino',
-      description: 'Para solicitar tu adelanto, deberás tener una contrato comercial que emita pagos mensuales y tenga al menos 6 meses de vigencia.',
+      description: 'Para solicitar tu adelanto, deberás tener una contrato comercial que te genere pagos mensuales y tenga al menos 6 meses de vigencia.',
       icon: `<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
               <g clip-path="url(#clip0_63_2219)">
                 <g mask="url(#mask0_63_2219)">

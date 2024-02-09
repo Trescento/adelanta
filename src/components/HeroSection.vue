@@ -5,7 +5,7 @@
     </div>
     <div class="lg:mr-16 max-w-[700px] w-full flex flex-col lg:order-1">
       <h1 class="text-4xl lg:text-[4rem] font-bold leading-[normal] text-balance mt-4 mb-6">
-        Accede capital para crecer tu negocio sin endeudarte
+        Accede a capital para hacer crecer tu negocio sin endeudarte.
       </h1>
       <div>
         <HeroTextCarousel />

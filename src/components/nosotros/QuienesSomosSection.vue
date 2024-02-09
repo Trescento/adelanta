@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-col pt-0 lg:pt-12 py-12 gap-6 md:order-1">
         <h1 class="text-5xl font-bold">
-          ¿Quienes somos?
+          ¿Quiénes somos?
         </h1>
         <div>
           <p class="text-xl font-bold">

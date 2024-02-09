@@ -113,20 +113,20 @@ const testimonials = ref([
   {
     name: 'Ana Laura P.',
     role: 'Asesor Inmobiliario de CDMX',
-    text: 'Con Arrenda he incrementado mis ingresos sólo conectando a mis contactos y además ahora cuento con otro servicio para ofrecer.',
+    text: 'Con Adelanta por Ziff he incrementado mis ingresos sólo recomendando a mis contactos y además ahora cuento con un servicio adicional que ofrecer.',
     image: '/assets/testimonials.png'
   },
   {
     name: 'José R.',
     role: 'Asesor inmobiliaria en Nuevo León',
-    text: 'Me gusta mucho que puedo ganar dinero solo enviando a mis clientes sin esfuerzos de venta extras.',
+    text: 'Me gusta mucho que puedo ganar dinero sólo enviando a mis clientes sin esfuerzos de venta extras.',
     image: '/assets/testimonials.png'
 
   },
   {
     name: 'Omar V.',
     role: 'Asesor Inmobiliario de Puebla',
-    text: 'Adelanta de Arrenda es un servicio que puedo ofrecer a mis clientes y es un producto fácil de ofrecer.',
+    text: 'Adelanta por Ziff es un servicio que puedo ofrecer a mis clientes y es un producto fácil de ofrecer.',
     image: '/assets/testimonials.png'
 
   }
