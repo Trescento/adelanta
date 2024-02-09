@@ -52,13 +52,13 @@
             </p>
           </div>
         </div>
-        <div class="flex items-center md:justify-center  mt-6 md:mt-12">
-          <CommonBaseButton>
-            <span class="font-normal">Registrarme</span>
-            <CommonArrowIcon />
-          </CommonBaseButton>
-        </div>
       </div>
+    </div>
+    <div class="flex items-center justify-center md:justify-end mt-6 md:mt-12">
+      <CommonBaseButton>
+        <span class="font-normal">Registrarme</span>
+        <CommonArrowIcon />
+      </CommonBaseButton>
     </div>
   </section>
 </template>
