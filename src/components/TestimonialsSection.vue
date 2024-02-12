@@ -1,9 +1,6 @@
 <template>
   <!-- MOBILE -->
   <section class="container block my-24 md:hidden">
-    <h2 class=" text-[1.75rem] text-center text-balance font-bold">
-      ¿Cómo funciona Adelanta por Ziff?
-    </h2>
     <template
       v-for="(testimonial, index) in testimonials"
       :key="`testimonial-${testimonial.name}`"

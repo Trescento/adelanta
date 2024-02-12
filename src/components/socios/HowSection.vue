@@ -2,7 +2,7 @@
   <section class="container my-24">
     <div class="flex flex-col xl:flex-row lg:items-center gap-16">
       <div class="flex flex-col gap-6 items-start">
-        <h3 class="font-bold text-[1.75rem] md:text-[2.5rem] text-brand">
+        <h3 class="font-bold text-balance text-[1.5rem] md:text-[2.5rem] text-brand">
           Refiere propietarios con contrato de arrendamiento vigente y gana comisiones.
         </h3>
         <ul class=" list-disc pl-4 text-lg">

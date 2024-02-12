@@ -34,7 +34,7 @@
           </defs>
         </svg>
       </div>
-      <p class="text-brand text-[2.5rem] font-bold text-balance mb-8">
+      <p class="text-brand text-xl md:text-[2.5rem] md:leading-[3rem] font-bold text-balance mb-8">
         No te pierdas ninguna novedad: <br><span class="text-brand-black">suscríbete a nuestro boletín informativo.</span>
       </p>
       <div>

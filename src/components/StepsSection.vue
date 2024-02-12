@@ -1,7 +1,7 @@
 <template>
   <section class="my-24 bg-brand-purple-secondary text-white">
     <div class="container max-w-7xl flex flex-col items-start md:items-center py-24 gap-12">
-      <h2 class="font-bold text-4xl">
+      <h2 class="font-bold text-4xl text-center">
         {{ steps.title }}
       </h2>
 

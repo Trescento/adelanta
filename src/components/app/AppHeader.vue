@@ -5,7 +5,7 @@
         <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
         <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
       </button>
-      <NuxtLink href="/" @click="navOpen ? toggleNav() : null">
+      <NuxtLink href="/" class="grid place-content-center" @click="navOpen ? toggleNav() : null">
         <img src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]">
       </NuxtLink>
       <div class="flex items-center gap-6">
@@ -24,7 +24,11 @@
           <a href="https://app.arrenda.mx/login/" target="_noblank" class="hidden px-6 py-2 mr-3 border rounded-lg xl:block border-brand-black">
             Iniciar Sesión
           </a>
-          <a href="https://app.arrenda.mx/register/" target="_noblank" class="px-6 py-2 text-white border rounded-lg border-brand bg-brand">
+          <a
+            href="https://app.arrenda.mx/register/"
+            target="_noblank"
+            class="px-3 xl:px-6 py-1.5 xl:py-2 text-white border rounded-lg border-brand bg-brand"
+          >
             Registrarme
           </a>
         </div>

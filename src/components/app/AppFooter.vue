@@ -2,7 +2,7 @@
   <footer class="bg-brand-black text-white">
     <div class="container py-16 pb-10">
       <div class="flex flex-col md:flex-row gap-12">
-        <div class="flex flex-col gap-4 text-sm md:order-2 md:flex-1">
+        <div class="flex flex-col gap-4 text-sm md:order-2 md:flex-1 text-center md:text-left">
           <NuxtLink
             v-for="item in navItems"
             :key="item.href"
@@ -15,7 +15,7 @@
             Términos y condiciones
           </NuxtLink>
         </div>
-        <div class="flex flex-col gap-4 text-sm md:order-3 md:flex-1">
+        <div class="flex flex-col gap-4 text-sm md:order-3 md:flex-1 text-center md:text-left">
           <p class="text-lg font-bold">
             Contáctanos
           </p>
