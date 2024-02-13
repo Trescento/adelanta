@@ -1,13 +1,15 @@
 <template>
   <header :class="`relative ${classBackground}`">
     <div class="container flex justify-between py-4 relative z-[9999]">
-      <button class="xl:hidden" @click="toggleNav">
-        <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
-        <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
-      </button>
-      <NuxtLink href="/" class="grid place-content-center" @click="navOpen ? toggleNav() : null">
-        <img src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]">
-      </NuxtLink>
+      <div class="flex gap-6">
+        <button class="xl:hidden" @click="toggleNav">
+          <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
+          <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
+        </button>
+        <NuxtLink href="/" class="grid place-content-center" @click="navOpen ? toggleNav() : null">
+          <img src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]">
+        </NuxtLink>
+      </div>
       <div class="flex items-center gap-6">
         <nav class="hidden xl:flex gap-[33px]">
           <NuxtLink
