@@ -7,7 +7,7 @@
       {{ props.description }}
     </p>
     <div class="mt-auto">
-      <CommonBaseButton type="black-ghost">
+      <CommonBaseButton type="black-ghost" as-anchor :href="props.url" target="_blank">
         <span>Descubre más</span>
         <CommonArrowIcon type="black" />
       </CommonBaseButton>

@@ -11,7 +11,7 @@
     <div class="flex flex-col overflow-x-auto">
       <div class="flex flex-col">
         <div ref="carouselContainer" class="flex overflow-x-auto snap-x snap-mandatory gap-4 scroll-smooth lg:scroll-bar-hidden px-4">
-          <NosotrosPostsItem v-for="post in posts" :key="post.title" :title="post.title" :description="post.description" />
+          <NosotrosPostsItem v-for="post in posts" :key="post.title" :title="post.title" :description="post.description" :url="post.url" />
         </div>
       </div>
       <div class="lg:hidden mt-4 px-4 lg:px-0">
@@ -41,27 +41,23 @@ const carouselContainer = ref<HTMLElement | null>(null)
 const posts = ref([
   {
     title: 'Adelanta Revoluciona el Futuro Financiero con Ziff: Una Alianza Innovadora',
-    description: 'Adelanta, la empresa líder en soluciones financieras, se une a Ziff en una colaboración estratégica que promete transformar el panorama financiero. Descubre cómo esta alianza pionera redefine las posibilidades, ofreciendo a los usuarios experiencias financieras más eficientes y avanzadas.'
+    description: 'Adelanta, la empresa líder en soluciones financieras, se une a Ziff en una colaboración estratégica que promete transformar el panorama financiero. Descubre cómo esta alianza pionera redefine las posibilidades, ofreciendo a los usuarios experiencias financieras más eficientes y avanzadas.',
+    url: 'https://techcrunch.com/2022/07/20/arrenda-emerges-with-adelanta-a-financing-offering-for-landlords-in-latin-america/'
   },
   {
     title: 'Ziff y Adelanta Anuncian Avances Tecnológicos en la Banca Digital',
-    description: 'La alianza entre Ziff y Adelanta marca un hito en la evolución de la banca digital. A través de la implementación de tecnologías innovadoras, esta colaboración busca redefinir la forma en que las personas gestionan sus finanzas. Conoce los detalles de las últimas soluciones tecnológicas que revolucionarán la experiencia bancaria.'
+    description: 'La alianza entre Ziff y Adelanta marca un hito en la evolución de la banca digital. A través de la implementación de tecnologías innovadoras, esta colaboración busca redefinir la forma en que las personas gestionan sus finanzas. Conoce los detalles de las últimas soluciones tecnológicas que revolucionarán la experiencia bancaria.',
+    url: 'https://www.eleconomista.com.mx/econohabitat/Es-posible-cobrar-las-rentas-por-adelantado-Arrenda-nace-para-darle-liquidez-a-propietarios--20220719-0117.html'
   },
   {
     title: 'Adelanta Revoluciona el Futuro Financiero con Ziff: Una Alianza Innovadora',
-    description: 'Adelanta, la empresa líder en soluciones financieras, se une a Ziff en una colaboración estratégica que promete transformar el panorama financiero. Descubre cómo esta alianza pionera redefine las posibilidades, ofreciendo a los usuarios experiencias financieras más eficientes y avanzadas.'
+    description: 'Adelanta, la empresa líder en soluciones financieras, se une a Ziff en una colaboración estratégica que promete transformar el panorama financiero. Descubre cómo esta alianza pionera redefine las posibilidades, ofreciendo a los usuarios experiencias financieras más eficientes y avanzadas.',
+    url: 'https://www.nasdaq.com/articles/mexicos-arrenda-aimed-at-making-renting-easy-raises-%2426.5-mln-in-early-round'
   },
   {
     title: 'Ziff y Adelanta Anuncian Avances Tecnológicos en la Banca Digital',
-    description: 'La alianza entre Ziff y Adelanta marca un hito en la evolución de la banca digital. A través de la implementación de tecnologías innovadoras, esta colaboración busca redefinir la forma en que las personas gestionan sus finanzas. Conoce los detalles de las últimas soluciones tecnológicas que revolucionarán la experiencia bancaria.'
-  },
-  {
-    title: 'Adelanta Revoluciona el Futuro Financiero con Ziff: Una Alianza Innovadora',
-    description: 'Adelanta, la empresa líder en soluciones financieras, se une a Ziff en una colaboración estratégica que promete transformar el panorama financiero. Descubre cómo esta alianza pionera redefine las posibilidades, ofreciendo a los usuarios experiencias financieras más eficientes y avanzadas.'
-  },
-  {
-    title: 'Ziff y Adelanta Anuncian Avances Tecnológicos en la Banca Digital',
-    description: 'La alianza entre Ziff y Adelanta marca un hito en la evolución de la banca digital. A través de la implementación de tecnologías innovadoras, esta colaboración busca redefinir la forma en que las personas gestionan sus finanzas. Conoce los detalles de las últimas soluciones tecnológicas que revolucionarán la experiencia bancaria.'
+    description: 'La alianza entre Ziff y Adelanta marca un hito en la evolución de la banca digital. A través de la implementación de tecnologías innovadoras, esta colaboración busca redefinir la forma en que las personas gestionan sus finanzas. Conoce los detalles de las últimas soluciones tecnológicas que revolucionarán la experiencia bancaria.',
+    url: 'https://contxto.com/es/mexico-es/fintech-arrenda-que-ofrece-creditos-a-arrendadores-en-mexico-levanta-us26-5-millones/'
   }
 ])
 
