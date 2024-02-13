@@ -28,7 +28,7 @@
         <div
           class="flex flex-col flex-1 gap-2 px-8 pb-8 border rounded-3xl"
         >
-          <img :src="testimonial.image" alt="" class="mx-auto rounded-full h-28 w-28 -mt-14">
+          <img :src="`/images/testimonials${testimonial.image}`" alt="" class="object-cover mx-auto rounded-full h-28 w-28 -mt-14">
           <p class="pt-2 text-lg">
             {{ testimonial.name }}
           </p>
@@ -78,7 +78,7 @@
           <div class="bg-gray-400 w-full h-[1px] my-10" />
           <div class="flex justify-between">
             <div class="flex items-center gap-4">
-              <img src="~/assets/testimonials.png" alt="" class="border border-brand rounded-full h-[72px] w-[72px]">
+              <img :src="`/images/testimonials${testimonial.image}`" alt="" class="border border-brand rounded-full h-[72px] w-[72px] object-cover">
               <div>
                 <p class="text-2xl font-semibold">
                   {{ testimonial.name }}
@@ -111,20 +111,20 @@ const testimonials = ref([
     name: 'Ana Laura P.',
     role: 'Asesor Inmobiliario de CDMX',
     text: 'Con Adelanta por Ziff he incrementado mis ingresos sólo recomendando a mis contactos y además ahora cuento con un servicio adicional que ofrecer.',
-    image: '/assets/testimonials.png'
+    image: '/t1.jpg'
   },
   {
     name: 'José R.',
     role: 'Asesor inmobiliaria en Nuevo León',
     text: 'Me gusta mucho que puedo ganar dinero sólo enviando a mis clientes sin esfuerzos de venta extras.',
-    image: '/assets/testimonials.png'
+    image: '/t2.jpg'
 
   },
   {
     name: 'Omar V.',
     role: 'Asesor Inmobiliario de Puebla',
     text: 'Adelanta por Ziff es un servicio que puedo ofrecer a mis clientes y es un producto fácil de ofrecer.',
-    image: '/assets/testimonials.png'
+    image: '/t3.jpg'
 
   }
 ])

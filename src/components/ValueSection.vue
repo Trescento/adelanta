@@ -1,7 +1,7 @@
 <template>
   <section
     v-motion
-    class="container max-w-7xl lg:my-24 -mt-24 lg:px-4 px-0"
+    class="container max-w-7xl lg:my-24 my-12 lg:px-4 px-0"
     :initial="{ opacity: 0, y: 50 }"
     :visibleOnce="{
       opacity: 1,
