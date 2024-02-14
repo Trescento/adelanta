@@ -27,26 +27,20 @@
         </p>
       </div>
       <div class="grid auto-rows-fr grid-cols-1 gap-6">
-        <BlogHeroPost v-for="post in posts" :key="post.title" :post="post" />
+        <BlogHeroPost v-for="post in posts" :key="post.id" :post="post" />
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { type HeroPostProps } from '../../interfaces/HeroPost'
+import { type Post } from '../../interfaces/Post'
 
-const posts: HeroPostProps[] = [
-  {
-    title: 'Cómo revalorizar tu local comercial: 7 consejos clave',
-    description: 'Revaloriza tu local comercial, revaloriza tu patrimonio Poseer un local comercial es una inversión significativa, y maximizar su valor es esencial para el éxito a largo plazo. Ya sea que estés buscando atraer a inquilinos de alta calidad o aumentar',
-    image: 'https://placehold.it/400x400',
-    slug: '/blog/como-revalorizar-tu-local-comercial-7-consejos-clave'
-  }, {
-    title: '¿Qué es el factoraje y como puede ayudarnos?',
-    description: '¿Qué es el factoraje? ¿Existen mejores soluciones? El factoraje, también conocido como factoring, es una práctica financiera que ha ganado relevancia en el mundo empresarial como una herramienta estratégica para mejorar la liquidez y gestionar eficientemente el capital de trabajo.',
-    image: 'https://placehold.it/400x400',
-    slug: '/blog/que-es-el-factoraje-y-como-puede-ayudarnos'
+const posts = useState<Post[]>('hero-posts', () => [])
+
+await useFetch(`/api/posts?state=PUBLISHED&sort=-updatedAt&limit=2&offset=0`, {
+  onResponse: (data) => {
+    posts.value = data.response._data.results
   }
-]
+})
 </script>

@@ -11,7 +11,10 @@
           >
             {{ item.name }}
           </NuxtLink>
-          <NuxtLink href="/">
+          <NuxtLink
+            href="/terminos-condiciones"
+            :class="`hover:underline ${route.path === '/terminos-condiciones' ? 'text-brand' : ''}`"
+          >
             Términos y condiciones
           </NuxtLink>
         </div>
