@@ -55,8 +55,8 @@ const posts = ref([
     url: 'https://www.nasdaq.com/articles/mexicos-arrenda-aimed-at-making-renting-easy-raises-%2426.5-mln-in-early-round'
   },
   {
-    title: 'Ziff y Adelanta Anuncian Avances Tecnológicos en la Banca Digital',
-    description: 'La alianza entre Ziff y Adelanta marca un hito en la evolución de la banca digital. A través de la implementación de tecnologías innovadoras, esta colaboración busca redefinir la forma en que las personas gestionan sus finanzas. Conoce los detalles de las últimas soluciones tecnológicas que revolucionarán la experiencia bancaria.',
+    title: 'Fintech Arrenda, que ofrece créditos a arrendadores en México, levanta US$26.5 millones',
+    description: 'Arrenda levantó US$26.5 millones en una ronda presemilla que combinó capital y deuda. La ronda fue liderada por Fasanara Capital y tuvo participación de las firmas Kube Ventures, ODX, Toehold Ventures, Wharton Fintech, Lightspeed Venture Partners Scout Fund, PRMM Inmobiliaria y de inversionistas ángeles.',
     url: 'https://contxto.com/es/mexico-es/fintech-arrenda-que-ofrece-creditos-a-arrendadores-en-mexico-levanta-us26-5-millones/'
   }
 ])
