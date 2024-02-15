@@ -34,7 +34,7 @@ import { type Post } from '../../interfaces/Post'
 
 // Estados para los posts, el offset, y el límite por página
 const posts = useState<Post[]>('posts', () => [])
-const totalPosts = ref(0)
+const totalPosts = ref(36)
 const offset = ref(2)
 const limit = ref(6) // Puedes ajustar este valor según tus necesidades
 
