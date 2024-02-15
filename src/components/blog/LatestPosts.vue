@@ -34,6 +34,7 @@ import { type Post } from '../../interfaces/Post'
 
 // Estados para los posts, el offset, y el límite por página
 const posts = useState<Post[]>('posts', () => [])
+const totalPosts = ref(0)
 const offset = ref(2)
 const limit = ref(6) // Puedes ajustar este valor según tus necesidades
 
@@ -41,13 +42,17 @@ const limit = ref(6) // Puedes ajustar este valor según tus necesidades
 async function loadPosts() {
   await useFetch(`/api/posts?state=PUBLISHED&sort=-updatedAt&limit=${limit.value}&offset=${offset.value}`, {
     onResponse: (data) => {
-      posts.value = data.response._data.results
+      if (data.response._data.results.length !== 0) {
+        posts.value = data.response._data.results
+        totalPosts.value = data.response._data.total - 2 // Resta 2 para no contar los posts de la página inicial
+      }
     }
   })
 }
 
 // Método para ir a la próxima página
 function nextPage() {
+  if (offset.value + limit.value >= totalPosts.value) return // No hay más posts
   offset.value += limit.value
   loadPosts()
 }
