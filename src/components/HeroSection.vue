@@ -11,23 +11,14 @@
         <HeroTextCarousel />
       </div>
       <div class="mt-6 lg:mt-20">
-        <BaseButton>
-          <span class="block lg:hidden">Solicitar capital</span>
-          <span class="hidden lg:block">Solicita capital por adelantado</span>
-          <CommonArrowIcon />
-        </BaseButton>
+        <div class="flex">
+          <CommonBaseButton as-anchor href="https://app.arrenda.mx/register/" target="_blank">
+            <span class="block lg:hidden">Solicitar capital</span>
+            <span class="hidden lg:block">Solicita capital por adelantado</span>
+            <CommonArrowIcon />
+          </CommonBaseButton>
+        </div>
       </div>
     </div>
   </section>
 </template>
-
-<script lang="ts">
-import BaseButton from '~/components/common/BaseButton.vue'
-
-export default {
-  components: {
-    BaseButton
-  }
-}
-
-</script>

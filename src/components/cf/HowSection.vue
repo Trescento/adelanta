@@ -14,7 +14,7 @@
           <p class="text-brand-gray90 text-lg max-w-[545px]">
             <b>Adelanta por Ziff</b> es un producto financiero único que brinda liquidez a propietarios de propiedades comerciales que cuentan con contratos de arrendamiento vigentes.
           </p>
-          <CommonBaseButton type="white">
+          <CommonBaseButton type="white" as-anchor href="https://app.arrenda.mx/register/" target="_blank">
             <span>Solicita un adelanto</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
               <path d="M5.5 12H19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

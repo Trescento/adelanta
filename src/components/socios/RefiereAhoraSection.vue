@@ -10,7 +10,7 @@
         </p>
       </ImageInfo>
       <div class="flex justify-center">
-        <CommonBaseButton type="white">
+        <CommonBaseButton type="white" as-anchor href="https://api.whatsapp.com/message/LCGOMAOTKZM4E1?autoload=1&app_absent=0&utm_source=hs_email" target="_blank">
           <span>Comenzar a referir</span>
           <CommonArrowIcon type="white" />
         </CommonBaseButton>

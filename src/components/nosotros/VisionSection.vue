@@ -15,8 +15,8 @@
           <span class="font-bold">Nos visualizamos como líderes innovadores en la industria financiera, siendo reconocidos por nuestra capacidad para transformar la gestión de los flujos de rentas inmobiliarias y de cobranzas de flujos recurrentes en una experiencia sin preocupaciones.</span>
           Aspiramos a ser la elección preferida de nuestros clientes, destacando por nuestra integridad, transparencia y el constante impulso hacia soluciones financieras vanguardistas. Buscamos ser pioneros en la creación de un camino hacia la estabilidad financiera, donde la confianza y la excelencia sean los pilares fundamentales de nuestro éxito.
         </p>
-        <div>
-          <CommonBaseButton type="white">
+        <div class="flex">
+          <CommonBaseButton type="white" as-anchor href="https://app.arrenda.mx/register/" target="_blank">
             <span>Quiero un adelanto</span>
             <CommonArrowIcon />
           </CommonBaseButton>

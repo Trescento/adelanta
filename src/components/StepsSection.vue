@@ -33,20 +33,16 @@
         </div>
       </div>
 
-      <BaseButton type="white">
+      <CommonBaseButton type="white" as-anchor href="https://app.arrenda.mx/register/" target="_blank">
         <span class="block md:hidden">Obtén una cotización</span>
         <span class="hidden md:block">Obtén una cotización de inmediato</span>
         <CommonArrowIcon />
-      </BaseButton>
+      </CommonBaseButton>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-</script>
-
-<script lang="ts">
-import BaseButton from '~/components/common/BaseButton.vue'
 const steps = {
   title: '¿Cómo funciona Adelanta por Ziff?',
   steps: [
@@ -103,15 +99,5 @@ const steps = {
             </svg>`
     }
   ]
-}
-export default {
-  components: {
-    BaseButton
-  },
-  data () {
-    return {
-      steps
-    }
-  }
 }
 </script>

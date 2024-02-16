@@ -10,8 +10,8 @@
       <h2 class="text-[2.5rem] font-bold text-brand max-w-80">
         Misión
       </h2>
-      <div class="max-w-80">
-        <CommonBaseButton type="secondary">
+      <div class="max-w-80 flex">
+        <CommonBaseButton type="secondary" as-anchor href="https://app.arrenda.mx/register/" target="_blank">
           <span>Quiero un adelanto</span>
           <CommonArrowIcon type="primary" />
         </CommonBaseButton>

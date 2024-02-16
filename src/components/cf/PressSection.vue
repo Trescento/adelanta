@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="flex items-center justify-center md:justify-end mt-6 md:mt-12">
-      <CommonBaseButton>
+      <CommonBaseButton as-anchor href="https://app.arrenda.mx/register/" target="_blank">
         <span class="font-normal">Registrarme</span>
         <CommonArrowIcon />
       </CommonBaseButton>

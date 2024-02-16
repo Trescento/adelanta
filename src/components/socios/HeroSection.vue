@@ -8,7 +8,7 @@
         <p class="max-w-3xl text-lg">
           Refiere empresarios y propietarios con cuentas por cobrar o contratos de arrendamiento vigente y gana comisiones trabajando tu propia cartera de clientes.
         </p>
-        <CommonBaseButton class="mt-16">
+        <CommonBaseButton class="mt-16" as-anchor href="https://api.whatsapp.com/message/LCGOMAOTKZM4E1?autoload=1&app_absent=0&utm_source=hs_email" target="_blank">
           <span>Quiero ser socio</span>
           <CommonArrowIcon />
         </CommonBaseButton>

@@ -23,12 +23,12 @@
         </nav>
         <!-- Buttons -->
         <div class="flex">
-          <a href="https://app.arrenda.mx/login/" target="_noblank" class="hidden px-6 py-2 mr-3 border rounded-lg xl:block border-brand-black">
+          <a href="https://app.arrenda.mx/login/" target="_blank" class="hidden px-6 py-2 mr-3 border rounded-lg xl:block border-brand-black">
             Iniciar Sesión
           </a>
           <a
             href="https://app.arrenda.mx/register/"
-            target="_noblank"
+            target="_blank"
             class="px-3 xl:px-6 py-1.5 xl:py-2 text-white border rounded-lg border-brand bg-brand"
           >
             Registrarme
@@ -42,7 +42,7 @@
     >
       <div class="flex flex-col container h-full">
         <nav class="flex flex-col gap-6">
-          <a href="https://app.arrenda.mx/login/" target="_noblank" class=" text-center text-lg py-4 mr-3 border rounded-lg xl:block border-brand-black">
+          <a href="https://app.arrenda.mx/login/" target="_blank" class=" text-center text-lg py-4 mr-3 border rounded-lg xl:block border-brand-black">
             Iniciar Sesión
           </a>
           <NuxtLink

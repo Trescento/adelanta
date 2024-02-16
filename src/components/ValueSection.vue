@@ -26,20 +26,11 @@
         <p class="text-[2rem] lg:text-[2.5rem] text-white font-bold mb-6">
           Hacer crecer tu empresa
         </p>
-        <BaseButton type="white">
+        <CommonBaseButton type="white" as-anchor href="https://app.arrenda.mx/register/" target="_blank">
           <span>Solicita un adelanto</span>
           <CommonArrowIcon />
-        </BaseButton>
+        </CommonBaseButton>
       </div>
     </div>
   </section>
 </template>
-
-<script lang="ts">
-import BaseButton from '~/components/common/BaseButton.vue'
-export default {
-  components: {
-    BaseButton
-  }
-}
-</script>

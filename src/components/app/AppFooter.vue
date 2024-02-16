@@ -29,7 +29,7 @@
           <NuxtLink href="/">
             <img src="/logo-white.png" alt="Ziff" class="h-20">
           </NuxtLink>
-          <CommonBaseButton>
+          <CommonBaseButton as-anchor href="https://app.arrenda.mx/register" target="_blank">
             <span class="font-normal">Registrarme</span>
           </CommonBaseButton>
           <div class="flex gap-2">

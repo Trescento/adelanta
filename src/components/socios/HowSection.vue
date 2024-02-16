@@ -10,7 +10,7 @@
           <li>Ingresos de contrato mensual mas que $5,000 MXN</li>
           <li>Cuando financiamos a tu referido, te pagamos tu comisión</li>
         </ul>
-        <CommonBaseButton type="secondary">
+        <CommonBaseButton type="secondary" as-anchor href="https://api.whatsapp.com/message/LCGOMAOTKZM4E1?autoload=1&app_absent=0&utm_source=hs_email" target="_blank">
           <span class="font-medium">Comenzar a referir</span>
           <CommonArrowIcon type="primary" />
         </CommonBaseButton>
