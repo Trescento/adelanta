@@ -156,10 +156,6 @@ No tener antecedentes por delitos contra el patrimonio.
 Aceptar nuestros Términos y Condiciones, así como firmar los documentos legales correspondientes.`
       },
       {
-        question: '¿Para qué necesita Ziff tantos documentos?',
-        answer: 'Todos los documentos solicitados por Ziff son necesarios para llevar a cabo la evaluación del posible cliente y poder determinar la posibilidad de adelantar sus rentas. Te invitamos a consultar nuestro Aviso de Privacidad o contactarte con nosotros si tienes alguna duda sobre cómo se tratan tus datos personales.'
-      },
-      {
         question: '¿Necesito aval para pedir mi adelanto?',
         answer: 'El adelanto de rentas usualmente no requiere aval, dependerá de la evaluación financiera de tu propiedad y comportamiento crediticio.'
       },

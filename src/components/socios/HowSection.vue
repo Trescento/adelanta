@@ -7,7 +7,7 @@
         </h3>
         <ul class=" list-disc pl-4 text-lg">
           <li>Clientes con contrato para monetizar vigentes</li>
-          <li>Ingresos de contrato mensual mas que $5000 MXN</li>
+          <li>Ingresos de contrato mensual mas que $5,000 MXN</li>
           <li>Cuando financiamos a tu referido, te pagamos tu comisión</li>
         </ul>
         <CommonBaseButton type="secondary">

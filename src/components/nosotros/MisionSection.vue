@@ -21,7 +21,7 @@
       <p class="font-bold">
         Potenciar la libertad financiera para empresarios y propietarios en América Latina a través de servicios financieros digitales.
       </p>
-      <p>Nuestra misión es proporcionar tranquilidad y solidez financiera a nuestros clientes al anticipar sus cuentas por cobrar mediante la gestión de rentas inmobiliarias y de flujos recurrentes. Nos permitimos a nuestros clientes avanzar hacia el futuro con confianza y estabilidad en sus negocios.</p>
+      <p>Nuestra misión es proporcionar tranquilidad y solidez financiera a nuestros clientes al anticipar sus cuentas por cobrar mediante la gestión de rentas inmobiliarias y de flujos recurrentes. Permitimos a nuestros clientes avanzar hacia el futuro con confianza y estabilidad en sus negocios.</p>
     </div>
   </section>
 </template>
