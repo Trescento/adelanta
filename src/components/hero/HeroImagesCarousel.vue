@@ -18,8 +18,9 @@
     >
       <template v-for="n in 3">
         <nuxt-img
-          v-for="image in images"
+          v-for="(image, index) in images"
           :key="`desktop-img-${n}-${image}`"
+          :set-loading="index === 0 ? 'eager' : 'lazy'"
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
@@ -46,8 +47,9 @@
     >
       <template v-for="n in 3">
         <nuxt-img
-          v-for="image in images"
+          v-for="(image, index) in images"
           :key="`mobile-img-${n}-${image}`"
+          :set-loading="index === 0 ? 'eager' : 'lazy'"
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
