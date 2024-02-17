@@ -25,7 +25,8 @@ export default defineNuxtConfig({
     base64: false
   },
   image: {
-    format: ['webp']
+    format: ['webp'],
+    quality: 80
   },
   app: {
     head: {
