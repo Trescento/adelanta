@@ -19,6 +19,7 @@
         src="/images/value.jpeg"
         alt="Grow Together"
         format="webp"
+        width="500"
       />
       <div class="bg-brand rounded-3xl p-8 text-center flex flex-col items-center mx-6 lg:mx-0">
         <p class="text-brand-purple-light text-2xl lg:text-[2rem] font-bold leading-snug">
