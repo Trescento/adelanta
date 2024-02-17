@@ -3,8 +3,8 @@
     <div class="container flex justify-between py-4 relative z-[9999]">
       <div class="flex gap-6">
         <button class="xl:hidden" aria-label="Abre o Cierra el Menú" @click="toggleNav">
-          <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
-          <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
+          <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6" alt="Open Menu icon">
+          <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6" alt="Close Menu icon">
         </button>
         <NuxtLink aria-label="Ir al inicio" href="/" class="grid place-content-center" @click="navOpen ? toggleNav() : null">
           <nuxt-img format="webp" alt="Adelante por Ziff Logo" src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]" />
