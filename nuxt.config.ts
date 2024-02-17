@@ -11,12 +11,18 @@ export default defineNuxtConfig({
     }
   },
   googleFonts: {
-    display: 'optional',
     families: {
       'Plus Jakarta Sans': {
         wght: [400, 600, 700]
       }
-    }
+    },
+    subsets: ['latin'],
+    display: 'optional',
+    prefetch: false,
+    preconnect: false,
+    preload: false,
+    download: true,
+    base64: false
   },
   image: {
     format: ['webp']
