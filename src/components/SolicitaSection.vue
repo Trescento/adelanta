@@ -4,7 +4,7 @@
       <span class="text-brand">No dejes</span> que las preocupaciones financieras afectan tu negocio. Con nuestras opciones de financiamiento, puedes concentrarte en lo importante:
       <span class="relative">
         hacer crecer tu empresa
-        <img src="~/assets/line-3.svg" class="absolute w-full h-auto left-0">
+        <nuxt-img format="webp" src="~/assets/line-3.svg" class="absolute w-full h-auto left-0" />
       </span>
     </p>
     <BaseButton type="secondary">

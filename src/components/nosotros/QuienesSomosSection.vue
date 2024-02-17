@@ -2,7 +2,7 @@
   <section class="bg-brand-gray90">
     <div class="grid grid-cols-1 md:grid-cols-2 container gap-12 py-12">
       <div class="md:order-2">
-        <img src="/images/quienessomos.png" alt="" class="rounded-3xl w-full h-full object-cover">
+        <nuxt-img format="webp" src="/images/quienessomos.png" alt="" class="rounded-3xl w-full h-full object-cover" />
       </div>
       <div class="flex flex-col pt-0 lg:pt-12 py-12 gap-6 md:order-1">
         <h1 class="text-5xl font-bold">
@@ -18,8 +18,8 @@
           </p>
         </div>
         <div class="flex items-center justify-evenly">
-          <img src="/ziff.png" alt="" class="h-14">
-          <img src="/arrenda.png" alt="" class=" h-7">
+          <nuxt-img format="webp" src="/ziff.png" alt="" class="h-14" />
+          <nuxt-img format="webp" src="/arrenda.png" alt="" class=" h-7" />
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@
           <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
         </button>
         <NuxtLink href="/" class="grid place-content-center" @click="navOpen ? toggleNav() : null">
-          <img src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]">
+          <nuxt-img format="webp" src="/logo.png" class="h-[33px] w-[123px] xl:h-[38px] xl:w-[134px]" />
         </NuxtLink>
       </div>
       <div class="flex items-center gap-6">

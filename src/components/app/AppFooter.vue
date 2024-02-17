@@ -27,7 +27,7 @@
         </div>
         <div class="flex flex-col gap-6 items-center md:order-1 md:items-start md:flex-1">
           <NuxtLink href="/">
-            <img src="/logo-white.png" alt="Ziff" class="h-20">
+            <nuxt-img format="webp" src="/logo-white.png" alt="Ziff" class="h-20" />
           </NuxtLink>
           <CommonBaseButton as-anchor href="https://app.arrenda.mx/register" target="_blank">
             <span class="font-normal">Registrarme</span>

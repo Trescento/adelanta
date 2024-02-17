@@ -1,6 +1,6 @@
 <template>
   <div class="container grid grid-cols-1 lg:grid-cols-2 items-center gap-24 my-12">
-    <img src="/comofunciona.jpeg" alt="image" class="w-full max-h-[648px] object-cover rounded-3xl">
+    <nuxt-img format="webp" src="/comofunciona.jpeg" alt="image" class="w-full max-h-[648px] object-cover rounded-3xl" />
 
     <div class="lg:-order-1 lg:py-20">
       <h1 class="text-5xl font-bold mb-6">

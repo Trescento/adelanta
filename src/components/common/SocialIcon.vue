@@ -1,10 +1,11 @@
 <template>
-  <img
+  <nuxt-img
     :src="`/svgs/${iconMap[props.icon]}`"
     :width="props.width"
     :height="props.height"
     :alt="`${props.icon} icon`"
-  >
+    format="webp"
+  />
 </template>
 
 <script setup lang="ts">

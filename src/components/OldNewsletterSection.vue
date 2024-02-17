@@ -6,20 +6,20 @@
           <h2 class="text-[2.5rem] leading-[3.125rem] lg:text-6xl lg:leading-[5.06rem] font-bold">
             Sé
             <span class="relative">el primero
-              <img src="~/assets/line-3.svg" class="absolute -bottom-3 lg:-bottom-5 w-full h-auto left-0 object-fill">
+              <nuxt-img src="~/assets/line-3.svg" class="absolute -bottom-3 lg:-bottom-5 w-full h-auto left-0 object-fill" />
             </span> <br>en enterarte
           </h2>
           <!-- Mobile -->
           <div class="flex md:hidden absolute left-64 bottom-0 gap-1">
-            <img src="~/assets/star.svg" class="hidden w-6 h-6">
-            <img src="~/assets/star.svg" class="hidden h-10 w-10">
-            <img src="~/assets/star.svg" class="h-6 w-6">
-            <img src="~/assets/star.svg" class="h-2 w-2">
+            <nuxt-img src="~/assets/star.svg" class="hidden w-6 h-6" />
+            <nuxt-img src="~/assets/star.svg" class="hidden h-10 w-10" />
+            <nuxt-img src="~/assets/star.svg" class="h-6 w-6" />
+            <nuxt-img src="~/assets/star.svg" class="h-2 w-2" />
           </div>
           <!-- Desktop -->
           <div class="lg:flex hidden absolute right-0 top-0 gap-1">
-            <img src="~/assets/star.svg" class="h-6 w-6">
-            <img src="~/assets/star.svg" class="h-10 w-10">
+            <nuxt-img src="~/assets/star.svg" class="h-6 w-6" />
+            <nuxt-img src="~/assets/star.svg" class="h-10 w-10" />
           </div>
         </div>
         <p class="text-lg mb-8">
@@ -53,7 +53,7 @@
           </BaseButton>
         </form>
       </div>
-      <img src="/images/value.jpeg" width="100%" class="hidden md:block object-cover h-full">
+      <nuxt-img src="/images/value.jpeg" width="100%" class="hidden md:block object-cover h-full" />
     </div>
   </section>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <section class="bg-brand text-white">
     <div class="container grid grid-cols-1 lg:grid-cols-2 gap-16 py-24 max-w-7xl">
-      <img src="/images/vision.png" alt="Nosotros" class="h-full w-full max-h-[587px] object-cover rounded-3xl">
+      <nuxt-img format="webp" src="/images/vision.png" alt="Nosotros" class="h-full w-full max-h-[587px] object-cover rounded-3xl" />
       <div class="flex flex-col gap-6">
         <div class="bg-white flex items-center justify-center  rounded-full w-11 h-11">
           <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">

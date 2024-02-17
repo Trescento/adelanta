@@ -28,7 +28,7 @@
         <div
           class="flex flex-col flex-1 gap-2 px-8 pb-8 border rounded-3xl"
         >
-          <img :src="`/images/testimonials${testimonial.image}`" alt="" class="object-cover mx-auto rounded-full h-28 w-28 -mt-14">
+          <nuxt-img format="webp" :src="`/images/testimonials${testimonial.image}`" alt="" class="object-cover mx-auto rounded-full h-28 w-28 -mt-14" />
           <p class="pt-2 text-lg">
             {{ testimonial.name }}
           </p>
@@ -78,7 +78,7 @@
           <div class="bg-gray-400 w-full h-[1px] my-10" />
           <div class="flex justify-between">
             <div class="flex items-center gap-4">
-              <img :src="`/images/testimonials${testimonial.image}`" alt="" class="border border-brand rounded-full h-[72px] w-[72px] object-cover">
+              <nuxt-img format="webp" :src="`/images/testimonials${testimonial.image}`" alt="" class="border border-brand rounded-full h-[72px] w-[72px] object-cover" />
               <div>
                 <p class="text-2xl font-semibold">
                   {{ testimonial.name }}

@@ -24,13 +24,13 @@ export default defineNuxtConfig({
     head: {
       script: [
         // HubSpot
-        // {
-        //   type: 'text/javascript',
-        //   id: 'hs-script-loader',
-        //   async: true,
-        //   defer: true,
-        //   src: '//js.hs-scripts.com/44399487.js'
-        // }
+        {
+          type: 'text/javascript',
+          id: 'hs-script-loader',
+          async: true,
+          defer: true,
+          src: '//js.hs-scripts.com/44399487.js'
+        }
       ]
     }
   }
