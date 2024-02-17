@@ -20,7 +20,7 @@
         <nuxt-img
           v-for="(image, index) in images"
           :key="`desktop-img-${n}-${image}`"
-          :set-loading="index === 0 ? 'eager' : 'lazy'"
+          :loading="index === 0 ? 'eager' : 'lazy'"
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
@@ -49,7 +49,7 @@
         <nuxt-img
           v-for="(image, index) in images"
           :key="`mobile-img-${n}-${image}`"
-          :set-loading="index === 0 ? 'eager' : 'lazy'"
+          :loading="index === 0 ? 'eager' : 'lazy'"
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
