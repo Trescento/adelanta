@@ -22,7 +22,7 @@
           x: -100,
         }"
       >
-        <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" @click="previousTestimonial">
+        <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" aria-label="Previo Testimonial" @click="previousTestimonial">
           <CommonArrowIcon class="rotate-180" />
         </button>
         <div
@@ -39,7 +39,7 @@
             {{ testimonial.text }}
           </p>
         </div>
-        <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" @click="nextTestimonial">
+        <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" aria-label="Siguiente Testimonial" @click="nextTestimonial">
           <CommonArrowIcon />
         </button>
       </div>
@@ -89,11 +89,11 @@
               </div>
             </div>
             <div class="flex items-center gap-4">
-              <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" @click="previousTestimonial">
+              <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" aria-label="Previo Testimonial" @click="previousTestimonial">
                 <CommonArrowIcon class="rotate-180" />
               </button>
               <p>{{ currentTestimonial + 1 }} / {{ testimonials.length }}</p>
-              <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" @click="nextTestimonial">
+              <button class="flex items-center justify-center w-8 h-8 rounded-full bg-brand" aria-label="Siguiente Testimonial" @click="nextTestimonial">
                 <CommonArrowIcon />
               </button>
             </div>

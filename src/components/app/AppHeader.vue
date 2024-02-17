@@ -2,7 +2,7 @@
   <header :class="`relative ${classBackground}`">
     <div class="container flex justify-between py-4 relative z-[9999]">
       <div class="flex gap-6">
-        <button class="xl:hidden" @click="toggleNav">
+        <button class="xl:hidden" aria-label="Abre o Cierra el Menú" @click="toggleNav">
           <img v-if="!navOpen" src="~/assets/menu.svg" class="h-6 w-6">
           <img v-if="navOpen" src="~/assets/close.svg" class="h-6 w-6">
         </button>

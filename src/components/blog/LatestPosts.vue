@@ -18,10 +18,10 @@
             />
           </div>
       <div class="flex gap-2 justify-center">
-        <button @click="previousPage" class="bg-brand rounded-full w-8 h-8 grid place-content-center">
+        <button @click="previousPage" aria-label="Página de posts anterior" class="bg-brand rounded-full w-8 h-8 grid place-content-center">
           <CommonArrowIcon type="white" class="rotate-180" />
         </button>
-        <button @click="nextPage" class="bg-brand rounded-full w-8 h-8 grid place-content-center">
+        <button @click="nextPage" aria-label="Página de posts siguiente" class="bg-brand rounded-full w-8 h-8 grid place-content-center">
           <CommonArrowIcon type="white" />
         </button>
       </div>
