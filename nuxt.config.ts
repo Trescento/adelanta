@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   srcDir: 'src/',
-  modules: ['@nuxtjs/google-fonts', '@vueuse/motion/nuxt'],
+  modules: ['@nuxtjs/google-fonts', '@vueuse/motion/nuxt', '@nuxt/image'],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
@@ -16,6 +16,9 @@ export default defineNuxtConfig({
         wght: [400, 600, 700]
       }
     }
+  },
+  image: {
+    format: ['webp']
   },
   app: {
     head: {
