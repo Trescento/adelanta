@@ -16,9 +16,9 @@
       }"
       class="hidden lg:flex flex-nowrap min-w-[392px]"
     >
-      <template v-for="n in 3">
+      <template v-for="(n, index) in 3">
         <nuxt-img
-          v-for="(image, index) in images"
+          v-for="image in images"
           :key="`desktop-img-${n}-${image}`"
           :loading="index === 0 ? 'eager' : 'lazy'"
           format="webp"
@@ -45,9 +45,9 @@
       }"
       class="flex lg:hidden flex-nowrap min-w-[234px]"
     >
-      <template v-for="n in 3">
+      <template v-for="(n, index) in 3">
         <nuxt-img
-          v-for="(image, index) in images"
+          v-for="image in images"
           :key="`mobile-img-${n}-${image}`"
           :loading="index === 0 ? 'eager' : 'lazy'"
           format="webp"
