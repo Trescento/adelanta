@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     }
   },
   googleFonts: {
+    display: 'optional',
     families: {
       'Plus Jakarta Sans': {
         wght: [400, 600, 700]
