@@ -7,7 +7,7 @@
       enter: {
         x: -3576,
         transition:{
-          duration: 45000,
+          duration: 55000,
           ease: 'linear',
           repeat: Infinity,
           repeatType: 'loop'
@@ -27,7 +27,7 @@
       enter: {
         x: -3823,
         transition:{
-          duration: 42000,
+          duration: 50000,
           ease: 'linear',
           repeat: Infinity,
           repeatType: 'loop'
@@ -48,7 +48,7 @@
       enter: {
         x: -5719,
         transition:{
-          duration: 45000,
+          duration: 55000,
           ease: 'linear',
           repeat: Infinity,
           repeatType: 'loop'
@@ -67,7 +67,7 @@
       enter: {
         x: -6132,
         transition:{
-          duration: 42000,
+          duration: 50000,
           ease: 'linear',
           repeat: Infinity,
           repeatType: 'loop'

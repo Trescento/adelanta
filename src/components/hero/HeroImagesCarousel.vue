@@ -7,7 +7,7 @@
         initial: { x: 0 },
         enter: { x: -(392 + 16) * images.length,
                  transition: {
-                   duration: 30000,
+                   duration: 38000,
                    ease: 'linear',
                    repeat: Infinity,
                    repeatType: 'loop',
@@ -35,7 +35,7 @@
     <div
       v-motion="{
         initial: { x: 0 },
-        enter: { x: -(234 + 16) * images.length,
+        enter: { x: -(133 + 16) * images.length,
                  transition: {
                    duration: 30000,
                    ease: 'linear',
@@ -44,7 +44,7 @@
                  },
         },
       }"
-      class="flex lg:hidden flex-nowrap min-w-[234px]"
+      class="flex lg:hidden flex-nowrap min-w-[133px]"
     >
       <template v-for="(n, index) in 3">
         <nuxt-img
@@ -55,7 +55,7 @@
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
-          class="rounded-3xl h-[351px] mr-4"
+          class="rounded-3xl h-[200px] mr-4"
         />
       </template>
     <!-- <nuxt-img v-for="n in 3" src="https://via.placeholder.com/391x588" alt="Placeholder" class="rounded-3xl" /> -->
