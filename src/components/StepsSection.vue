@@ -16,7 +16,7 @@
             opacity: 1,
             y: 0,
             transition: {
-              delay: (index + 1) * 250,
+              delay: (index) * 250,
               duration: 300,
               ease: 'easeInOut'
             }

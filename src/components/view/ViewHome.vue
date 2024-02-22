@@ -1,9 +1,13 @@
 <template>
   <HeroSection />
   <StepsSection />
-  <CalculatorSection />
+  <CalculatorSection v-motion="animations.visibleOnce.slideDown" />
   <ValueSection />
   <!-- <VideoSection /> -->
-  <TestimonialsSection />
-  <NewsletterSection />
+  <TestimonialsSection v-motion="animations.visibleOnce.slideUp" />
+  <NewsletterSection v-motion="animations.visibleOnce.slideDown" />
 </template>
+
+<script setup lang="ts">
+import { animations } from '@/helpers/animations'
+</script>
