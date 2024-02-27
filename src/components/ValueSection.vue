@@ -19,7 +19,7 @@
           Con nuestras opciones de financiamiento, puedes concentrarte en lo importante:
         </p>
         <p class="text-[2rem] lg:text-[2.5rem] text-white font-bold mb-6">
-          Hacer crecer tu empresa
+          Hacer crecer tu patrimonio
         </p>
         <CommonBaseButton type="white" as-anchor href="https://app.arrenda.mx/register/" target="_blank">
           <span>Solicita un adelanto</span>
