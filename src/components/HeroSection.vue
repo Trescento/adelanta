@@ -6,7 +6,7 @@
     <div class="lg:mr-16 max-w-[700px] w-full flex flex-col lg:order-1">
       <div class="mt-4 mb-6">
         <h1 class="text-4xl lg:text-[4rem] font-bold leading-[normal] text-balance">
-          Recibe por adelantado tus rentas sin endeudarte.
+          Recibe tus rentas por adelantado, sin endeudarte.
         </h1>
         <p class="font-bold px-1 text-lg lg:text-2xl">
           Hasta 36 meses, en unos solos días
