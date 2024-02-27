@@ -7,7 +7,7 @@
         initial: { x: 0 },
         enter: { x: -(392 + 16) * images.length,
                  transition: {
-                   duration: 38000,
+                   duration: 40000,
                    ease: 'linear',
                    repeat: Infinity,
                    repeatType: 'loop',
@@ -25,7 +25,7 @@
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
-          class="rounded-3xl h-[588px] mr-4"
+          class="rounded-3xl h-[588px] aspect-[2/3] mr-4"
         />
       </template>
       <!-- <nuxt-img v-for="n in 3" src="https://via.placeholder.com/391x588" alt="Placeholder" class="rounded-3xl" /> -->
@@ -55,7 +55,7 @@
           format="webp"
           :src="`/images/hero/${image}`"
           alt="Placeholder"
-          class="rounded-3xl h-[200px] mr-4"
+          class="rounded-3xl h-[200px] aspect-[2/3] mr-4"
         />
       </template>
     <!-- <nuxt-img v-for="n in 3" src="https://via.placeholder.com/391x588" alt="Placeholder" class="rounded-3xl" /> -->
@@ -72,8 +72,9 @@ const props = defineProps<{
 
 const withFade = props.withFade
 const images = [
-  'hero-1.png',
-  'hero-2.png',
-  'hero-3.png'
+  'hero-1.jpg',
+  'hero-2.jpg',
+  'hero-3.jpg',
+  'hero-4.jpg'
 ]
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section v-motion-fade class="container flex flex-col lg:flex-row justify-between items-end mb-24 mt-4 lg:mt-24">
+  <section v-motion-fade class="container flex flex-col lg:flex-row justify-between items-end mb-24 mt-4 lg:mt-12">
     <div class="max-w-[580px] lg:order-2 lg:overflow-hidden relative bg-white mb-6 lg:mb-0 z-10">
       <HeroImagesCarousel with-fade />
     </div>
