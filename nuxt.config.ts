@@ -17,7 +17,6 @@ export default defineNuxtConfig({
       }
     },
     subsets: ['latin'],
-    display: 'optional',
     prefetch: false,
     preconnect: false,
     preload: false,
