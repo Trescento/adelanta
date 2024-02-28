@@ -18,7 +18,7 @@ Ziff se apega a los principios rectores de la protección de Datos Personales y 
 7. **Proporcionalidad: Ziff únicamente les solicitará a los titulares, aquellos Datos Personales y Datos Personales Sensibles que sean necesarios, adecuados y relevantes en relación con las finalidades de Ziff.**
 8. **Responsabilidad: Ziff es estrictamente responsable de la totalidad de los Datos Personales y/o Datos Personales Sensibles que los titulares le comparten.**
 
-Ziffusa las más estrictas medidas de seguridad para cuidar, acceder, usar y manejar la información y datos propios, así como la información y datos de los empleados de Ziff, clientes, proveedores y cualquier otra persona, empresa o ente relacionado a Ziff. Asimismo, cabe mencionar que Ziff utiliza las mismas medidas de seguridad en relación a sus Datos Personales y/o Datos Personales Sensibles como lo hace con los propios.
+Ziff usa las más estrictas medidas de seguridad para cuidar, acceder, usar y manejar la información y datos propios, así como la información y datos de los empleados de Ziff, clientes, proveedores y cualquier otra persona, empresa o ente relacionado a Ziff. Asimismo, cabe mencionar que Ziff utiliza las mismas medidas de seguridad en relación a sus Datos Personales y/o Datos Personales Sensibles como lo hace con los propios.
 
 Este aviso está hecho para que las prácticas de privacidad de Ziff tengan la compresión adecuada hacia los particulares mediante un formato que se pueda leer, comprender y navegar fácilmente. Ziff pone a su disposición el Aviso de Privacidad para su conocimiento, así como sus opciones sobre cómo se utiliza la información:
 
