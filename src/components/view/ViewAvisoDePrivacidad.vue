@@ -17,7 +17,7 @@
       <li><a href="#actualizacion-del-aviso-de-privacidad">11. Actualización del Aviso de Privacidad</a></li>
     </ol>
     <section class="mt-12 prose text-justify max-w-none">
-      <ContentDoc path="/aviso-de-privacidad-integral-md" />
+      <ContentDoc path="/aviso-de-privacidad" />
     </section>
   </main>
 </template>

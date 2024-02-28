@@ -1,10 +1,10 @@
 <template>
-  <ViewAvisoDePrivacidadIntegral />
+  <ViewAvisoDePrivacidad />
 </template>
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Aviso de privacidad integral | Adelanta por Ziff',
+  title: 'Aviso de privacidad | Adelanta por Ziff',
   description: 'Aviso de privacidad integral de Adelanta por Ziff'
 
 })
