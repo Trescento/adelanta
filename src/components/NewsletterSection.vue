@@ -57,7 +57,7 @@
           <!-- Checkbox -->
           <div class="flex items-center gap-2">
             <input id="terms" type="checkbox" class="w-6 h-6 rounded-lg accent-brand">
-            <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">He leído, entiendo y acepto los términos del <a class="text-brand hover:underline" target="_noblank" href="/aviso-de-privacidad.pdf">Aviso de Privacidad</a>.</label>
+            <label for="terms" class="text-sm leading-[1.125rem] text-[#5A576D]">He leído, entiendo y acepto los términos del <a class="text-brand hover:underline" href="/aviso-de-privacidad">Aviso de Privacidad</a>.</label>
           </div>
         </div>
         <CommonBaseButton class="flex justify-between w-full mt-6">
