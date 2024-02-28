@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   srcDir: 'src/',
-  modules: ['@nuxtjs/google-fonts', '@vueuse/motion/nuxt', '@nuxt/image'],
+  modules: ['@nuxtjs/google-fonts', '@vueuse/motion/nuxt', '@nuxt/image', '@nuxt/content'],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
