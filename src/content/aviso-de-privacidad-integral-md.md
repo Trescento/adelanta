@@ -1,3 +1,8 @@
+---
+title: 'Aviso de Privacidad | Adelanta por Ziff'
+description: 'Aviso de Privacidad de Adelanta por Ziff'
+---
+
 **PROMETEO, AGENTE DE SEGUROS Y DE FIANZAS S.A. DE C.V. SOLVENTRO, S.A.P.I. DE C.V.,**, con domicilio en Avenida Paseo de los Tamarindos No. 100, Planta Baja, Depto. 2B, Colonia Bosques de las Lomas, Cuajimalpa de Morelos, C.P. 05120, Ciudad de México, México, es responsable de la recolección, uso, almacenamiento, tratamiento, transferencia y protección de los datos personales de los titulares (el “**Titular**”, o los “**Titulares**”, según sea el caso), en los términos de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (la “**Ley**”), su Reglamento (el “**Reglamento**”) y demás disposiciones legales aplicables (conjuntamente, la “**Normatividad de Protección de Datos**”).
 
 Para efectos del presente aviso de privacidad (el “**Aviso de Privacidad**”), se entenderán como **(i)** “Datos Personales”, a aquella información concerniente a una persona física identificada o identificable, de conformidad con lo establecido en la fracción V del Artículo 3 de la Ley (los “**Datos Personales**”); y **(ii)** “Datos Personales Sensibles” aquellos que afecten a la esfera más íntima de su Titular, o cuya utilización indebida pueda dar origen a discriminación o conlleve un riesgo grave para éste, es decir, que puedan revelar aspectos como origen racial o étnico, estado de salud presente y futuro, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas, preferencia sexual, de conformidad con lo establecido en la fracción VI del Artículo 3 de la Ley (los “**Datos Personales Sensibles**”).
