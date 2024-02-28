@@ -38,7 +38,7 @@ Los Datos Personales y/o los Datos Personales Sensibles que recabe Ziff de los T
 
 De manera adicional, Ziff utilizará su información personal para las siguientes finalidades secundarias que no son necesarias para el servicio solicitado ni para la relación jurídica entre Ziff y el Titular (en su caso), pero que permiten y facilitan brindarle una mejor atención, tales como **(i)** el envío de información, publicidad, comunicaciones y noticias; **(ii)** la realización de un reporte de las asesorías objeto de los servicios para incluirlas como experiencia de Ziff; y **(iii)** otras finalidades de mercadotecnia, publicitarias o de prospección comercial.
 
-A efecto de que el Titular pueda manifestar su negativa para el tratamiento de su información personal para las finalidades secundarias descritas en el párrafo anterior, bastará enviar un correo electrónico a la dirección [[*]](https://arrenda.mx/aviso-de-privacidad/), manifestando expresamente dicha negativa.
+A efecto de que el Titular pueda manifestar su negativa para el tratamiento de su información personal para las finalidades secundarias descritas en el párrafo anterior, bastará enviar un correo electrónico a la dirección [[*]](hola@ziff.com.mx), manifestando expresamente dicha negativa.
 
 En términos de lo dispuesto en la Normativa de Protección de Datos, cuando Ziff no haga del conocimiento del Titular el presente Aviso de Privacidad de manera directa o personal sino de forma indirecta, el Titular contará con un plazo de 5 (cinco) días hábiles a partir de que les fue puesto a disposición el Aviso de Privacidad para que, de ser el caso, manifieste su oposición al tratamiento de sus Datos Personales o Datos Personales Sensibles, ya que, en caso de que dicho Titular no manifieste su oposición, se entenderá que otorga su consentimiento respecto del contenido de este Aviso de Privacidad a Ziff.
 
@@ -387,7 +387,7 @@ Nombre del departamento de Datos Personales y/o Datos Personales Sensibles: Depa
 
 Domicilio: Avenida Paseo de los Tamarindos No. 100, Planta Baja, Depto. 2B, Colonia Bosques de las Lomas, Cuajimalpa de Morelos, C.P. 05120, Ciudad de México, México.
 
-Correo electrónico: hola@ziff.com.m
+Correo electrónico: hola@ziff.com.mx
 
 Número telefónico: +52 55 7068 9383
 
