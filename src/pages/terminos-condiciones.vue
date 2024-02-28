@@ -21,7 +21,7 @@ definePageMeta({
 })
 useSeoMeta({
   title: 'Términos y condiciones | Adelanta por Ziff',
-  description: 'Entérate de toda la información del sector inmobiliario en México.'
+  description: 'Términos y condiciones de Adelanta por Ziff'
 })
 
 const sections = [
