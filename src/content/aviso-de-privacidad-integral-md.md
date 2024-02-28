@@ -366,7 +366,7 @@ En todos los casos sus Datos Personales y/o Datos Personales Sensibles podrán s
 
 El Titular puede ejercer en todo momento, en los términos y condiciones señaladas en la Ley, los derechos de acceso, rectificación, cancelación y oposición (Derechos ARCO) al tratamiento de los mismos, así como revocar su consentimiento; para lograr lo anterior, deberá llevar a cabo el siguiente procedimiento:
 
-1. Presentar su solicitud físicamente en la dirección señalada al inicio del presente aviso o al correo electrónico: hola@ziff.com.mx.
+1. Presentar su solicitud físicamente en la dirección señalada al inicio del presente aviso o al correo electrónico: hola@ziff.com.mx .
 2. La solicitud (física o electrónica) de Derechos ARCO deberá señalar:
 3. **Nombre del Titular de los Datos Personales y/o Datos Personales Sensibles, o en su caso, el nombre del menor de edad y nombre del tutor o responsable legal de éste.**
 4. **El domicilio o medio electrónico para comunicarle la respuesta a su solicitud.**
@@ -396,7 +396,7 @@ Correo electrónico: hola@ziff.com.mx
 
 Número telefónico: +52 55 7068 9383
 
-Asimismo, a efecto de que el Titular pueda limitar el uso o divulgación de su información personal para los fines secundarios previstos en el presente Aviso de Privacidad, bastará una solicitud por escrito mediante correo electrónico enviado a la dirección hola@ziff.com.mx.
+Asimismo, a efecto de que el Titular pueda limitar el uso o divulgación de su información personal para los fines secundarios previstos en el presente Aviso de Privacidad, bastará una solicitud por escrito mediante correo electrónico enviado a la dirección hola@ziff.com.mx .
 
 ## **¿Por cuánto tiempo se conservarán los Datos Personales y/o Datos Personales Sensibles?**<a name="por-cuanto-tiempo-se-conservaran"></a>
 
@@ -464,6 +464,6 @@ http://www.adobe.com/privacy/policies/flash-player.html
 
 Ziff se reserva el derecho de efectuar en cualquier momento modificaciones o actualizaciones al presente Aviso de Privacidad, para la atención de reformas legislativas o jurisprudenciales, políticas internas, o nuevos requerimientos, siendo la versión actualizada que haya sido publicada, la aplicable en todo momento. Ziff se compromete a mantener informado al Titular sobre los cambios que pueda sufrir el presente Aviso de Privacidad, a través de la página web ziff.com.mx, integrando cualquier modificación en un plazo máximo de 10 (diez) días hábiles posteriores a la realización del cambio.
 
-Cualquier modificación al presente Aviso de Privacidad se le notificará al correo electrónico que haya registrado en la página web y/o aplicaciones móviles de Ziff o a través de cualquier otro medio, ya sea oral, impreso o electrónico que Ziff considere idóneo para tal efecto. Asimismo, podrá requerir en cualquier momento el Aviso de Privacidad en el siguiente correo electrónico: hola@ziff.com.m
+Cualquier modificación al presente Aviso de Privacidad se le notificará al correo electrónico que haya registrado en la página web y/o aplicaciones móviles de Ziff o a través de cualquier otro medio, ya sea oral, impreso o electrónico que Ziff considere idóneo para tal efecto. Asimismo, podrá requerir en cualquier momento el Aviso de Privacidad en el siguiente correo electrónico: hola@ziff.com.mx
 
 Mediante el uso de la página web y aplicación de Ziff, el Titular da su consentimiento para el tratamiento y transferencias, uso para las finalidades necesarias (en este último caso, el Titular podrá seguir el procedimiento señalado en el presente Aviso de Privacidad en relación a sus Datos Personales y/o Datos Personales Sensibles, incluidos datos económicos y patrimoniales.)
