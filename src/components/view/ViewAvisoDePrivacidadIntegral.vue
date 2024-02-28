@@ -1,5 +1,5 @@
 <template>
-  <main class="container my-12 gap-4">
+  <main class="container max-w-5xl my-12 gap-4">
     <h1 class="text-4xl font-bold text-center mb-4">
       Aviso de privacidad integral
     </h1>
@@ -17,7 +17,7 @@
       <li><a href="#actualizacion-del-aviso-de-privacidad">11. Actualización del Aviso de Privacidad</a></li>
     </ol>
     <section class="prose text-justify max-w-none">
-      <ContentDoc path="/aviso-de-privacidad-integral" />
+      <ContentDoc path="/aviso-de-privacidad-integral-md" />
     </section>
   </main>
 </template>
